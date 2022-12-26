@@ -8,7 +8,7 @@ In the future, provide lint feature.
 
 ### Hover
 
-
+noting to write
 
 ## Extension Settings
 
@@ -18,13 +18,9 @@ For example:
 
 This extension contributes the following settings:
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
+- `mtml.suggest.basic`: true: hover feature enable false: disable
+- `mtml.cms.type`: set to `cmsType` to hover item toggle.
+  - `Movable Type`
+  - `Movable Type.net`
+  - `PowerCMS`
+  - `PowerCMS X`.
