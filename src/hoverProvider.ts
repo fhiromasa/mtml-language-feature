@@ -29,17 +29,20 @@ export default class MTMLHoverProvider implements HoverProvider {
 		console.log("cmsType = " + cmsType);
 
 		// ポインターの居場所に文字列があるかどうか確認する。なければリターン
+		// この時取得可能文字列はcamelCase, snake_case, kebab-caseと数字
 		const wordRange = document.getWordRangeAtPosition(position);
 		if (!wordRange) {
 			console.log("there are no words");
 			return undefined;
 		}
 
-		const name = document.getText(wordRange);
+		const rawName = document.getText(wordRange);
+		const lowerName = rawName.toLowerCase();
+		const name = lowerName.replace(/^(mt)/, "");
 		let entry;
 		switch (cmsType) {
 			default:
-				entry = mtTags["MT" + name] || mtModifiers[name];
+				entry = mtTags[name] || mtModifiers[name] || mtTags["app"+name];
 				break;
 		}
 
