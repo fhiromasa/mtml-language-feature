@@ -2,534 +2,534 @@
 import { IItems } from "./Utils";
 
 export const mtTags: IItems = {
-	MTAuthorHasContent: {
+	authorhascontent: {
 		codeBlock: "<mt:AuthorHasContent></mt:AuthorHasContent>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorhascontent.html",
 		version: "MT7R.4207",
 	},
-	MTActions: {
+	actions: {
 		codeBlock: "<mt:Actions></mt:Actions>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/actions.html",
 	},
-	MTActionsComment: {
+	actionscomment: {
 		codeBlock: "<mt:ActionsComment></mt:ActionsComment>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/actionscomment.html",
 	},
-	MTActionsEntry: {
+	actionsentry: {
 		codeBlock: "<mt:ActionsEntry></mt:ActionsEntry>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/actionsentry.html",
 	},
-	MTActionsFavorite: {
+	actionsfavorite: {
 		codeBlock: "<mt:ActionsFavorite></mt:ActionsFavorite>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/actionsfavorite.html",
 	},
-	MTActionsFooter: {
+	actionsfooter: {
 		codeBlock: "<mt:ActionsFooter></mt:ActionsFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/actionsfooter.html",
 	},
-	MTActionsHeader: {
+	actionsheader: {
 		codeBlock: "<mt:ActionsHeader></mt:ActionsHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/actionsheader.html",
 	},
-	MTActionStreams: {
+	actionstreams: {
 		codeBlock: "<mt:ActionStreams></mt:ActionStreams>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/actionstreams.html",
 		version: "MT4.25",
 	},
-	MTAdminCGIPath: {
+	admincgipath: {
 		codeBlock: "<mt:AdminCGIPath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/admincgipath.html",
 	},
-	MTAdminScript: {
+	adminscript: {
 		codeBlock: "<mt:AdminScript>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/adminscript.html",
 		version: "MT4",
 	},
-	MTAppActionBar: {
+	appactionbar: {
 		codeBlock: "<mtapp:ActionBar>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/app:actionbar.html",
 		version: "MT4",
 	},
-	MTAppForm: {
+	appform: {
 		codeBlock: "<mtapp:Form></mtapp:Form>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/app:form.html",
 		version: "MT4",
 	},
-	MTAppLink: {
+	applink: {
 		codeBlock: "<mtapp:Link>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/app:link.html",
 		version: "MT4",
 	},
-	MTAppListFilters: {
+	applistfilters: {
 		codeBlock: "<mtapp:ListFilters>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/app:listfilters.html",
 		version: "MT4",
 	},
-	MTAppListing: {
+	applisting: {
 		codeBlock: "<mtapp:Listing></mtapp:Listing>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/app:listing.html",
 		version: "MT4",
 	},
-	MTAppPageActions: {
+	apppageactions: {
 		codeBlock: "<mtapp:PageActions>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/app:pageactions.html",
 		version: "MT4",
 	},
-	MTAppSetting: {
+	appsetting: {
 		codeBlock: "<mtapp:Setting></mtapp:Setting>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/app:setting.html",
 		version: "MT4",
 	},
-	MTAppSettingGroup: {
+	appsettinggroup: {
 		codeBlock: "<mtapp:SettingGroup></mtapp:SettingGroup>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/app:settinggroup.html",
 		version: "MT4",
 	},
-	MTAppStatusMsg: {
+	appstatusmsg: {
 		codeBlock: "<mtapp:StatusMsg></mtapp:StatusMsg>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/app:statusmsg.html",
 		version: "MT4",
 	},
-	MTAppWidget: {
+	appwidget: {
 		codeBlock: "<mtapp:Widget></mtapp:Widget>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/app:widget.html",
 	},
-	MTArchiveCategory: {
+	archivecategory: {
 		codeBlock: "<mt:ArchiveCategory>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivecategory.html",
 		deprecated: true,
 	},
-	MTArchiveCount: {
+	archivecount: {
 		codeBlock: "<mt:ArchiveCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivecount.html",
 	},
-	MTArchiveDate: {
+	archivedate: {
 		codeBlock: "<mt:ArchiveDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivedate.html",
 	},
-	MTArchiveDateEnd: {
+	archivedateend: {
 		codeBlock: "<mt:ArchiveDateEnd>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivedateend.html",
 	},
-	MTArchiveFile: {
+	archivefile: {
 		codeBlock: "<mt:ArchiveFile>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivefile.html",
 	},
-	MTArchiveLabel: {
+	archivelabel: {
 		codeBlock: "<mt:ArchiveLabel>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivelabel.html",
 		deprecated: true,
 	},
-	MTArchiveLink: {
+	archivelink: {
 		codeBlock: "<mt:ArchiveLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivelink.html",
 	},
-	MTArchiveList: {
+	archivelist: {
 		codeBlock: "<mt:ArchiveList></mt:ArchiveList>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivelist.html",
 	},
-	MTArchiveListFooter: {
+	archivelistfooter: {
 		codeBlock: "<mt:ArchiveListFooter></mt:ArchiveListFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivelistfooter.html",
 	},
-	MTArchiveListHeader: {
+	archivelistheader: {
 		codeBlock: "<mt:ArchiveListHeader></mt:ArchiveListHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivelistheader.html",
 	},
-	MTArchiveNext: {
+	archivenext: {
 		codeBlock: "<mt:ArchiveNext></mt:ArchiveNext>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivenext.html",
 	},
-	MTArchivePrevious: {
+	archiveprevious: {
 		codeBlock: "<mt:ArchivePrevious></mt:ArchivePrevious>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/archiveprevious.html",
 	},
-	MTArchives: {
+	archives: {
 		codeBlock: "<mt:Archives></mt:Archives>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/archives.html",
 	},
-	MTArchiveTitle: {
+	archivetitle: {
 		codeBlock: "<mt:ArchiveTitle>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivetitle.html",
 	},
-	MTArchiveType: {
+	archivetype: {
 		codeBlock: "<mt:ArchiveType>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivetype.html",
 	},
-	MTArchiveTypeLabel: {
+	archivetypelabel: {
 		codeBlock: "<mt:ArchiveTypeLabel>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/archivetypelabel.html",
 	},
-	MTAsset: {
+	asset: {
 		codeBlock: "<mt:Asset></mt:Asset>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/asset.html",
 		version: "MT4",
 	},
-	MTAssetAddedBy: {
+	assetaddedby: {
 		codeBlock: "<mt:AssetAddedBy>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetaddedby.html",
 		version: "MT4",
 	},
-	MTAssetBlogID: {
+	assetblogid: {
 		codeBlock: "<mt:AssetBlogID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetblogid.html",
 		version: "MT6.2",
 	},
-	MTAssetCount: {
+	assetcount: {
 		codeBlock: "<mt:AssetCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetcount.html",
 		version: "MT4",
 	},
-	MTAssetDateAdded: {
+	assetdateadded: {
 		codeBlock: "<mt:AssetDateAdded>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetdateadded.html",
 		version: "MT4",
 	},
-	MTAssetDescription: {
+	assetdescription: {
 		codeBlock: "<mt:AssetDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetdescription.html",
 		version: "MT4.1",
 	},
-	MTAssetFileExt: {
+	assetfileext: {
 		codeBlock: "<mt:AssetFileExt>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetfileext.html",
 	},
-	MTAssetFileName: {
+	assetfilename: {
 		codeBlock: "<mt:AssetFileName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetfilename.html",
 	},
-	MTAssetFilePath: {
+	assetfilepath: {
 		codeBlock: "<mt:AssetFilePath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetfilepath.html",
 	},
-	MTAssetID: {
+	assetid: {
 		codeBlock: "<mt:AssetID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetid.html",
 	},
-	MTAssetIfTagged: {
+	assetiftagged: {
 		codeBlock: "<mt:AssetIfTagged></mt:AssetIfTagged>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetiftagged.html",
 		version: "MT4",
 	},
-	MTAssetIsFirstInRow: {
+	assetisfirstinrow: {
 		codeBlock: "<mt:AssetIsFirstInRow></mt:AssetIsFirstInRow>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetisfirstinrow.html",
 		version: "MT4",
 	},
-	MTAssetIsLastInRow: {
+	assetislastinrow: {
 		codeBlock: "<mt:AssetIsLastInRow></mt:AssetIsLastInRow>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetislastinrow.html",
 		version: "MT4",
 	},
-	MTAssetLabel: {
+	assetlabel: {
 		codeBlock: "<mt:AssetLabel>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetlabel.html",
 		version: "MT4",
 	},
-	MTAssetLink: {
+	assetlink: {
 		codeBlock: "<mt:AssetLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetlink.html",
 		version: "MT4",
 	},
-	MTAssetMimeType: {
+	assetmimetype: {
 		codeBlock: "<mt:AssetMimeType>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetmimetype.html",
 		version: "MT4",
 	},
-	MTAssetProperty: {
+	assetproperty: {
 		codeBlock: "<mt:AssetProperty>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetproperty.html",
 		version: "MT4",
 	},
-	MTAssetRank: {
+	assetrank: {
 		codeBlock: "<mt:AssetRank>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetrank.html",
 		version: "MT4",
 	},
-	MTAssets: {
+	assets: {
 		codeBlock: "<mt:Assets></mt:Assets>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/assets.html",
 		version: "MT4",
 	},
-	MTAssetScore: {
+	assetscore: {
 		codeBlock: "<mt:AssetScore>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetscore.html",
 	},
-	MTAssetScoreAvg: {
+	assetscoreavg: {
 		codeBlock: "<mt:AssetScoreAvg>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetscoreavg.html",
 	},
-	MTAssetScoreCount: {
+	assetscorecount: {
 		codeBlock: "<mt:AssetScoreCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetscorecount.html",
 	},
-	MTAssetScoreHigh: {
+	assetscorehigh: {
 		codeBlock: "<mt:AssetScoreHigh>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetscorehigh.html",
 		version: "MT4",
 	},
-	MTAssetScoreLow: {
+	assetscorelow: {
 		codeBlock: "<mt:AssetScoreLow>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetscorelow.html",
 		version: "MT4",
 	},
-	MTAssetsFooter: {
+	assetsfooter: {
 		codeBlock: "<mt:AssetsFooter></mt:AssetsFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetsfooter.html",
 		version: "MT4",
 	},
-	MTAssetsHeader: {
+	assetsheader: {
 		codeBlock: "<mt:AssetsHeader></mt:AssetsHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetsheader.html",
 		version: "MT4",
 	},
-	MTAssetSiteID: {
+	assetsiteid: {
 		codeBlock: "<mt:AssetSiteID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetsiteid.html",
 		version: "MT7R.4207",
 	},
-	MTAssetTags: {
+	assettags: {
 		codeBlock: "<mt:AssetTags></mt:AssetTags>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/assettags.html",
 		version: "MT4",
 	},
-	MTAssetThumbnailLink: {
+	assetthumbnaillink: {
 		codeBlock: "<mt:AssetThumbnailLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetthumbnaillink.html",
 		version: "MT4",
 	},
-	MTAssetThumbnailURL: {
+	assetthumbnailurl: {
 		codeBlock: "<mt:AssetThumbnailURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assetthumbnailurl.html",
 		version: "MT4",
 	},
-	MTAssetType: {
+	assettype: {
 		codeBlock: "<mt:AssetType>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/assettype.html",
 		version: "MT4",
 	},
-	MTAssetURL: {
+	asseturl: {
 		codeBlock: "<mt:AssetURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/asseturl.html",
 		version: "MT4",
 	},
-	MTAtomScript: {
+	atomscript: {
 		codeBlock: "<mt:AtomScript>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/atomscript.html",
 	},
-	MTAudioCustomFieldDescription: {
+	audiocustomfielddescription: {
 		codeBlock: "<mt:AudioCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/audiocustomfielddescription.html",
 		version: "MT5.0",
 	},
-	MTAudioCustomFieldName: {
+	audiocustomfieldname: {
 		codeBlock: "<mt:AudioCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/audiocustomfieldname.html",
 		version: "MT5.0",
 	},
-	MTAudioCustomFields: {
+	audiocustomfields: {
 		codeBlock: "<mt:AudioCustomFields></mt:AudioCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/audiocustomfields.html",
 		version: "MT5.0",
 	},
-	MTAudioCustomFieldValue: {
+	audiocustomfieldvalue: {
 		codeBlock: "<mt:AudioCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/audiocustomfieldvalue.html",
 		version: "MT5.0",
 	},
-	MTAuthorAuthIconURL: {
+	authorauthiconurl: {
 		codeBlock: "<mt:AuthorAuthIconURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorauthiconurl.html",
 		version: "MT4",
 	},
-	MTAuthorAuthType: {
+	authorauthtype: {
 		codeBlock: "<mt:AuthorAuthType>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorauthtype.html",
 		version: "MT4",
 	},
-	MTAuthorBasename: {
+	authorbasename: {
 		codeBlock: "<mt:AuthorBasename>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorbasename.html",
 	},
-	MTAuthorCommentCount: {
+	authorcommentcount: {
 		codeBlock: "<mt:AuthorCommentCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorcommentcount.html",
 		version: "MT5.0",
 	},
-	MTAuthorCommentResponses: {
+	authorcommentresponses: {
 		codeBlock: "<mt:AuthorCommentResponses></mt:AuthorCommentResponses>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorcommentresponses.html",
 	},
-	MTAuthorComments: {
+	authorcomments: {
 		codeBlock: "<mt:AuthorComments></mt:AuthorComments>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorcomments.html",
 	},
-	MTAuthorContentCount: {
+	authorcontentcount: {
 		codeBlock: "<mt:AuthorContentCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorcontentcount.html",
 		version: "MT7R.4207",
 	},
-	MTAuthorCustomFieldDescription: {
+	authorcustomfielddescription: {
 		codeBlock: "<mt:AuthorCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
@@ -537,7 +537,7 @@ export const mtTags: IItems = {
 		deprecated: true,
 		version: "MT4.1",
 	},
-	MTAuthorCustomFieldName: {
+	authorcustomfieldname: {
 		codeBlock: "<mt:AuthorCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
@@ -545,14 +545,14 @@ export const mtTags: IItems = {
 		deprecated: true,
 		version: "MT4.1",
 	},
-	MTAuthorCustomFields: {
+	authorcustomfields: {
 		codeBlock: "<mt:AuthorCustomFields></mt:AuthorCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorcustomfields.html",
 		version: "MT4.1",
 	},
-	MTAuthorCustomFieldValue: {
+	authorcustomfieldvalue: {
 		codeBlock: "<mt:AuthorCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
@@ -560,2252 +560,2252 @@ export const mtTags: IItems = {
 		deprecated: true,
 		version: "MT4.1",
 	},
-	MTAuthorDisplayName: {
+	authordisplayname: {
 		codeBlock: "<mt:AuthorDisplayName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authordisplayname.html",
 		version: "MT4",
 	},
-	MTAuthorEmail: {
+	authoremail: {
 		codeBlock: "<mt:AuthorEmail>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authoremail.html",
 		version: "MT4",
 	},
-	MTAuthorEntriesCount: {
+	authorentriescount: {
 		codeBlock: "<mt:AuthorEntriesCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorentriescount.html",
 		version: "MT5.0",
 	},
-	MTAuthorEntryCount: {
+	authorentrycount: {
 		codeBlock: "<mt:AuthorEntryCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorentrycount.html",
 		version: "MT5.0",
 	},
-	MTAuthorFavoriteEntries: {
+	authorfavoriteentries: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorfavoriteentries.html",
 	},
-	MTAuthorFollowers: {
+	authorfollowers: {
 		codeBlock: "<mt:AuthorFollowers></mt:AuthorFollowers>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorfollowers.html",
 	},
-	MTAuthorFollowersCount: {
+	authorfollowerscount: {
 		codeBlock: "<mt:AuthorFollowersCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorfollowerscount.html",
 	},
-	MTAuthorFollowing: {
+	authorfollowing: {
 		codeBlock: "<mt:AuthorFollowing></mt:AuthorFollowing>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorfollowing.html",
 	},
-	MTAuthorFollowingComments: {
+	authorfollowingcomments: {
 		codeBlock: "<mt:AuthorFollowingComments></mt:AuthorFollowingComments>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorfollowingcomments.html",
 	},
-	MTAuthorFollowingCount: {
+	authorfollowingcount: {
 		codeBlock: "<mt:AuthorFollowingCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorfollowingcount.html",
 	},
-	MTAuthorFollowingEntries: {
+	authorfollowingentries: {
 		codeBlock: "<mt:AuthorFollowingEntries></mt:AuthorFollowingEntries>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorfollowingentries.html",
 	},
-	MTAuthorFollowingFavorites: {
+	authorfollowingfavorites: {
 		codeBlock: "<mt:AuthorFollowingFavorites></mt:AuthorFollowingFavorites>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorfollowingfavorites.html",
 	},
-	MTAuthorFollowLink: {
+	authorfollowlink: {
 		codeBlock: "<mt:AuthorFollowLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorfollowlink.html",
 	},
-	MTAuthorHasEntry: {
+	authorhasentry: {
 		codeBlock: "<mt:AuthorHasEntry></mt:AuthorHasEntry>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorhasentry.html",
 		version: "MT4.1",
 	},
-	MTAuthorHasPage: {
+	authorhaspage: {
 		codeBlock: "<mt:AuthorHasPage></mt:AuthorHasPage>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorhaspage.html",
 		version: "MT4.1",
 	},
-	MTAuthorID: {
+	authorid: {
 		codeBlock: "<mt:AuthorID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorid.html",
 		version: "MT4",
 	},
-	MTAuthorIfFollowed: {
+	authoriffollowed: {
 		codeBlock: "<mt:AuthorIfFollowed></mt:AuthorIfFollowed>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authoriffollowed.html",
 	},
-	MTAuthorIfFollowing: {
+	authoriffollowing: {
 		codeBlock: "<mt:AuthorIfFollowing></mt:AuthorIfFollowing>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authoriffollowing.html",
 	},
-	MTAuthorName: {
+	authorname: {
 		codeBlock: "<mt:AuthorName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorname.html",
 		version: "MT4",
 	},
-	MTAuthorNext: {
+	authornext: {
 		codeBlock: "<mt:AuthorNext></mt:AuthorNext>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authornext.html",
 	},
-	MTAuthorPrevious: {
+	authorprevious: {
 		codeBlock: "<mt:AuthorPrevious></mt:AuthorPrevious>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorprevious.html",
 	},
-	MTAuthorRank: {
+	authorrank: {
 		codeBlock: "<mt:AuthorRank>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorrank.html",
 	},
-	MTAuthors: {
+	authors: {
 		codeBlock: "<mt:Authors></mt:Authors>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authors.html",
 		version: "MT4.1",
 	},
-	MTAuthorScore: {
+	authorscore: {
 		codeBlock: "<mt:AuthorScore>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorscore.html",
 		version: "MT4",
 	},
-	MTAuthorScoreAvg: {
+	authorscoreavg: {
 		codeBlock: "<mt:AuthorScoreAvg>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorscoreavg.html",
 		version: "MT4",
 	},
-	MTAuthorScoreCount: {
+	authorscorecount: {
 		codeBlock: "<mt:AuthorScoreCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorscorecount.html",
 		version: "MT4",
 	},
-	MTAuthorScoreHigh: {
+	authorscorehigh: {
 		codeBlock: "<mt:AuthorScoreHigh>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorscorehigh.html",
 		version: "MT4",
 	},
-	MTAuthorScoreLow: {
+	authorscorelow: {
 		codeBlock: "<mt:AuthorScoreLow>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorscorelow.html",
 		version: "MT4",
 	},
-	MTAuthorUnFollowLink: {
+	authorunfollowlink: {
 		codeBlock: "<mt:AuthorUnFollowLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorunfollowlink.html",
 	},
-	MTAuthorURL: {
+	authorurl: {
 		codeBlock: "<mt:AuthorURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authorurl.html",
 		version: "MT4",
 	},
-	MTAuthorUserpic: {
+	authoruserpic: {
 		codeBlock: "<mt:AuthorUserpic>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authoruserpic.html",
 		version: "MT4.1",
 	},
-	MTAuthorUserpicAsset: {
+	authoruserpicasset: {
 		codeBlock: "<mt:AuthorUserpicAsset></mt:AuthorUserpicAsset>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/authoruserpicasset.html",
 		version: "MT4.1",
 	},
-	MTAuthorUserpicURL: {
+	authoruserpicurl: {
 		codeBlock: "<mt:AuthorUserpicURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/authoruserpicurl.html",
 		version: "MT4.1",
 	},
-	MTBlockEditorBlockAsset: {
+	blockeditorblockasset: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/mtblockeditorblockasset.html",
 	},
-	MTBlockEditorBlocks: {
+	blockeditorblocks: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/mtblockeditorblocks.html",
 	},
-	MTBlogArchiveURL: {
+	blogarchiveurl: {
 		codeBlock: "<mt:BlogArchiveURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogarchiveurl.html",
 	},
-	MTBlogCategoryCount: {
+	blogcategorycount: {
 		codeBlock: "<mt:BlogCategoryCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogcategorycount.html",
 		version: "MT4",
 	},
-	MTBlogCCLicenseImage: {
+	blogcclicenseimage: {
 		codeBlock: "<mt:BlogCCLicenseImage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogcclicenseimage.html",
 		version: "MT4",
 	},
-	MTBlogCCLicenseURL: {
+	blogcclicenseurl: {
 		codeBlock: "<mt:BlogCCLicenseURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogcclicenseurl.html",
 	},
-	MTBlogCommentCount: {
+	blogcommentcount: {
 		codeBlock: "<mt:BlogCommentCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogcommentcount.html",
 	},
-	MTBlogCustomFieldDescription: {
+	blogcustomfielddescription: {
 		codeBlock: "<mt:BlogCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogcustomfielddescription.html",
 		version: "MT5.0",
 	},
-	MTBlogCustomFieldName: {
+	blogcustomfieldname: {
 		codeBlock: "<mt:BlogCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogcustomfieldname.html",
 		version: "MT5.0",
 	},
-	MTBlogCustomFields: {
+	blogcustomfields: {
 		codeBlock: "<mt:BlogCustomFields></mt:BlogCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogcustomfields.html",
 		version: "MT5.0",
 	},
-	MTBlogCustomFieldValue: {
+	blogcustomfieldvalue: {
 		codeBlock: "<mt:BlogCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogcustomfieldvalue.html",
 		version: "MT5.0",
 	},
-	MTBlogDateLanguage: {
+	blogdatelanguage: {
 		codeBlock: "<mt:BlogDateLanguage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogdatelanguage.html",
 		version: "MT5.2",
 	},
-	MTBlogDescription: {
+	blogdescription: {
 		codeBlock: "<mt:BlogDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogdescription.html",
 	},
-	MTBlogEntryCount: {
+	blogentrycount: {
 		codeBlock: "<mt:BlogEntryCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogentrycount.html",
 	},
-	MTBlogFileExtension: {
+	blogfileextension: {
 		codeBlock: "<mt:BlogFileExtension>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogfileextension.html",
 	},
-	MTBlogHost: {
+	bloghost: {
 		codeBlock: "<mt:BlogHost>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/bloghost.html",
 	},
-	MTBlogID: {
+	blogid: {
 		codeBlock: "<mt:BlogID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogid.html",
 	},
-	MTBlogIfCCLicense: {
+	blogifcclicense: {
 		codeBlock: "<mt:BlogIfCCLicense></mt:BlogIfCCLicense>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogifcclicense.html",
 	},
-	MTBlogIfCommentsOpen: {
+	blogifcommentsopen: {
 		codeBlock: "<mt:BlogIfCommentsOpen></mt:BlogIfCommentsOpen>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogifcommentsopen.html",
 		version: "MT4",
 	},
-	MTBlogLanguage: {
+	bloglanguage: {
 		codeBlock: "<mt:BlogLanguage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/bloglanguage.html",
 	},
-	MTBlogName: {
+	blogname: {
 		codeBlock: "<mt:BlogName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogname.html",
 	},
-	MTBlogPageCount: {
+	blogpagecount: {
 		codeBlock: "<mt:BlogPageCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogpagecount.html",
 		version: "MT4",
 	},
-	MTBlogParentWebsite: {
+	blogparentwebsite: {
 		codeBlock: "<mt:BlogParentWebsite></mt:BlogParentWebsite>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogparentwebsite.html",
 		version: "MT5.0",
 	},
-	MTBlogPingCount: {
+	blogpingcount: {
 		codeBlock: "<mt:BlogPingCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogpingcount.html",
 	},
-	MTBlogRelativeURL: {
+	blogrelativeurl: {
 		codeBlock: "<mt:BlogRelativeURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogrelativeurl.html",
 	},
-	MTBlogResultFooter: {
+	blogresultfooter: {
 		codeBlock: "<mt:BlogResultFooter></mt:BlogResultFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogresultfooter.html",
 	},
-	MTBlogResultHeader: {
+	blogresultheader: {
 		codeBlock: "<mt:BlogResultHeader></mt:BlogResultHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogresultheader.html",
 	},
-	MTBlogs: {
+	blogs: {
 		codeBlock: "<mt:Blogs></mt:Blogs>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogs.html",
 	},
-	MTBlogSitePath: {
+	blogsitepath: {
 		codeBlock: "<mt:BlogSitePath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogsitepath.html",
 	},
-	MTBlogTemplateSetID: {
+	blogtemplatesetid: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogtemplatesetid.html",
 		version: "MT4.1",
 	},
-	MTBlogThemeID: {
+	blogthemeid: {
 		codeBlock: "<mt:BlogThemeID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogthemeid.html",
 		version: "MT5.0",
 	},
-	MTBlogTimezone: {
+	blogtimezone: {
 		codeBlock: "<mt:BlogTimezone>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogtimezone.html",
 	},
-	MTBlogURL: {
+	blogurl: {
 		codeBlock: "<mt:BlogURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/blogurl.html",
 	},
-	MTBuildTemplateID: {
+	buildtemplateid: {
 		codeBlock: "<mt:BuildTemplateID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/buildtemplateid.html",
 		version: "MT4",
 	},
-	MTCalendar: {
+	calendar: {
 		codeBlock: "<mt:Calendar></mt:Calendar>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendar.html",
 	},
-	MTCalendarCellNumber: {
+	calendarcellnumber: {
 		codeBlock: "<mt:CalendarCellNumber>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendarcellnumber.html",
 	},
-	MTCalendarDate: {
+	calendardate: {
 		codeBlock: "<mt:CalendarDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendardate.html",
 	},
-	MTCalendarDay: {
+	calendarday: {
 		codeBlock: "<mt:CalendarDay>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendarday.html",
 	},
-	MTCalendarIfBlank: {
+	calendarifblank: {
 		codeBlock: "<mt:CalendarIfBlank></mt:CalendarIfBlank>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendarifblank.html",
 	},
-	MTCalendarIfContents: {
+	calendarifcontents: {
 		codeBlock: "<mt:CalendarIfContents></mt:CalendarIfContents>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendarifcontents.html",
 		version: "MT7R.4207",
 	},
-	MTCalendarIfEntries: {
+	calendarifentries: {
 		codeBlock: "<mt:CalendarIfEntries></mt:CalendarIfEntries>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendarifentries.html",
 	},
-	MTCalendarIfNoContents: {
+	calendarifnocontents: {
 		codeBlock: "<mt:CalendarIfNoContents></mt:CalendarIfNoContents>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendarifnocontents.html",
 		version: "MT7R.4207",
 	},
-	MTCalendarIfNoEntries: {
+	calendarifnoentries: {
 		codeBlock: "<mt:CalendarIfNoEntries></mt:CalendarIfNoEntries>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendarifnoentries.html",
 	},
-	MTCalendarIfToday: {
+	calendariftoday: {
 		codeBlock: "<mt:CalendarIfToday></mt:CalendarIfToday>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendariftoday.html",
 	},
-	MTCalendarWeekFooter: {
+	calendarweekfooter: {
 		codeBlock: "<mt:CalendarWeekFooter></mt:CalendarWeekFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendarweekfooter.html",
 	},
-	MTCalendarWeekHeader: {
+	calendarweekheader: {
 		codeBlock: "<mt:CalendarWeekHeader></mt:CalendarWeekHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/calendarweekheader.html",
 	},
-	MTCanonicalLink: {
+	canonicallink: {
 		codeBlock: "<mt:CanonicalLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/canonicallink.html",
 		version: "MT5.2",
 	},
-	MTCanonicalURL: {
+	canonicalurl: {
 		codeBlock: "<mt:CanonicalURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/canonicalurl.html",
 		version: "MT5.2",
 	},
-	MTCaptchaFields: {
+	captchafields: {
 		codeBlock: "<mt:CaptchaFields>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/captchafields.html",
 		version: "MT4",
 	},
-	MTCategories: {
+	categories: {
 		codeBlock: "<mt:Categories></mt:Categories>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/categories.html",
 	},
-	MTCategoryArchiveLink: {
+	categoryarchivelink: {
 		codeBlock: "<mt:CategoryArchiveLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categoryarchivelink.html",
 	},
-	MTCategoryBasename: {
+	categorybasename: {
 		codeBlock: "<mt:CategoryBasename>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorybasename.html",
 	},
-	MTCategoryCommentCount: {
+	categorycommentcount: {
 		codeBlock: "<mt:CategoryCommentCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorycommentcount.html",
 		version: "MT4.1",
 	},
-	MTCategoryCount: {
+	categorycount: {
 		codeBlock: "<mt:CategoryCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorycount.html",
 	},
-	MTCategoryCustomFieldDescription: {
+	categorycustomfielddescription: {
 		codeBlock: "<mt:CategoryCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorycustomfielddescription.html",
 		version: "MT4.1",
 	},
-	MTCategoryCustomFieldName: {
+	categorycustomfieldname: {
 		codeBlock: "<mt:CategoryCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorycustomfieldname.html",
 		version: "MT4.1",
 	},
-	MTCategoryCustomFields: {
+	categorycustomfields: {
 		codeBlock: "<mt:CategoryCustomFields></mt:CategoryCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorycustomfields.html",
 		version: "MT4.1",
 	},
-	MTCategoryCustomFieldValue: {
+	categorycustomfieldvalue: {
 		codeBlock: "<mt:CategoryCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorycustomfieldvalue.html",
 		version: "MT4.1",
 	},
-	MTCategoryDescription: {
+	categorydescription: {
 		codeBlock: "<mt:CategoryDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorydescription.html",
 	},
-	MTCategoryID: {
+	categoryid: {
 		codeBlock: "<mt:CategoryID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categoryid.html",
 	},
-	MTCategoryIfAllowPings: {
+	categoryifallowpings: {
 		codeBlock: "<mt:CategoryIfAllowPings></mt:CategoryIfAllowPings>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/categoryifallowpings.html",
 	},
-	MTCategoryLabel: {
+	categorylabel: {
 		codeBlock: "<mt:CategoryLabel>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorylabel.html",
 	},
-	MTCategoryNext: {
+	categorynext: {
 		codeBlock: "<mt:CategoryNext></mt:CategoryNext>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorynext.html",
 	},
-	MTCategoryPrevious: {
+	categoryprevious: {
 		codeBlock: "<mt:CategoryPrevious></mt:CategoryPrevious>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/categoryprevious.html",
 	},
-	MTCategorySetName: {
+	categorysetname: {
 		codeBlock: "<mt:CategorySetName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorysetname.html",
 		version: "MT7R.4207",
 	},
-	MTCategorySets: {
+	categorysets: {
 		codeBlock: "<mt:CategorySets></mt:CategorySets>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorysets.html",
 		version: "MT7R.4207",
 	},
-	MTCategoryTrackbackCount: {
+	categorytrackbackcount: {
 		codeBlock: "<mt:CategoryTrackbackCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorytrackbackcount.html",
 	},
-	MTCategoryTrackbackLink: {
+	categorytrackbacklink: {
 		codeBlock: "<mt:CategoryTrackbackLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/categorytrackbacklink.html",
 	},
-	MTCCLicenseRDF: {
+	cclicenserdf: {
 		codeBlock: "<mt:CCLicenseRDF>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/cclicenserdf.html",
 	},
-	MTCGIHost: {
+	cgihost: {
 		codeBlock: "<mt:CGIHost>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/cgihost.html",
 	},
-	MTCGIPath: {
+	cgipath: {
 		codeBlock: "<mt:CGIPath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/cgipath.html",
 	},
-	MTCGIRelativeURL: {
+	cgirelativeurl: {
 		codeBlock: "<mt:CGIRelativeURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/cgirelativeurl.html",
 	},
-	MTCGIServerPath: {
+	cgiserverpath: {
 		codeBlock: "<mt:CGIServerPath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/cgiserverpath.html",
 	},
-	MTChildSites: {
+	childsites: {
 		codeBlock: "<mt:ChildSites></mt:ChildSites>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/childsites.html",
 		version: "MT7R.4207",
 	},
-	MTCommentAuthor: {
+	commentauthor: {
 		codeBlock: "<mt:CommentAuthor>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentauthor.html",
 	},
-	MTCommentAuthorIdentity: {
+	commentauthoridentity: {
 		codeBlock: "<mt:CommentAuthorIdentity>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentauthoridentity.html",
 	},
-	MTCommentAuthorLink: {
+	commentauthorlink: {
 		codeBlock: "<mt:CommentAuthorLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentauthorlink.html",
 	},
-	MTCommentBlogID: {
+	commentblogid: {
 		codeBlock: "<mt:CommentBlogID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentblogid.html",
 		version: "MT4",
 	},
-	MTCommentBody: {
+	commentbody: {
 		codeBlock: "<mt:CommentBody>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentbody.html",
 	},
-	MTCommentCustomFieldDescription: {
+	commentcustomfielddescription: {
 		codeBlock: "<mt:CommentCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentcustomfielddescription.html",
 		version: "MT5.0",
 	},
-	MTCommentCustomFieldName: {
+	commentcustomfieldname: {
 		codeBlock: "<mt:CommentCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentcustomfieldname.html",
 		version: "MT5.0",
 	},
-	MTCommentCustomFields: {
+	commentcustomfields: {
 		codeBlock: "<mt:CommentCustomFields></mt:CommentCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentcustomfields.html",
 		version: "MT5.0",
 	},
-	MTCommentCustomFieldValue: {
+	commentcustomfieldvalue: {
 		codeBlock: "<mt:CommentCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentcustomfieldvalue.html",
 		version: "MT5.0",
 	},
-	MTCommentDate: {
+	commentdate: {
 		codeBlock: "<mt:CommentDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentdate.html",
 	},
-	MTCommentEmail: {
+	commentemail: {
 		codeBlock: "<mt:CommentEmail>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentemail.html",
 	},
-	MTCommentEntry: {
+	commententry: {
 		codeBlock: "<mt:CommentEntry></mt:CommentEntry>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/commententry.html",
 	},
-	MTCommentEntryID: {
+	commententryid: {
 		codeBlock: "<mt:CommentEntryID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commententryid.html",
 	},
-	MTCommenterAuthIconURL: {
+	commenterauthiconurl: {
 		codeBlock: "<mt:CommenterAuthIconURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenterauthiconurl.html",
 		version: "MT4",
 	},
-	MTCommenterAuthType: {
+	commenterauthtype: {
 		codeBlock: "<mt:CommenterAuthType>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenterauthtype.html",
 		version: "MT4",
 	},
-	MTCommenterEmail: {
+	commenteremail: {
 		codeBlock: "<mt:CommenterEmail>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenteremail.html",
 	},
-	MTCommenterID: {
+	commenterid: {
 		codeBlock: "<mt:CommenterID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenterid.html",
 		version: "MT4.1",
 	},
-	MTCommenterIfTrusted: {
+	commenteriftrusted: {
 		codeBlock: "<mt:CommenterIfTrusted></mt:CommenterIfTrusted>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenteriftrusted.html",
 		deprecated: true,
 	},
-	MTCommenterName: {
+	commentername: {
 		codeBlock: "<mt:CommenterName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentername.html",
 	},
-	MTCommenterNameThunk: {
+	commenternamethunk: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenternamethunk.html",
 		deprecated: true,
 	},
-	MTCommenterURL: {
+	commenterurl: {
 		codeBlock: "<mt:CommenterURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenterurl.html",
 		version: "MT4.1",
 	},
-	MTCommenterUsername: {
+	commenterusername: {
 		codeBlock: "<mt:CommenterUsername>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenterusername.html",
 		version: "MT4.1",
 	},
-	MTCommenterUserpic: {
+	commenteruserpic: {
 		codeBlock: "<mt:CommenterUserpic>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenteruserpic.html",
 		version: "MT4.1",
 	},
-	MTCommenterUserpicAsset: {
+	commenteruserpicasset: {
 		codeBlock: "<mt:CommenterUserpicAsset></mt:CommenterUserpicAsset>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenteruserpicasset.html",
 		version: "MT4.1",
 	},
-	MTCommenterUserpicURL: {
+	commenteruserpicurl: {
 		codeBlock: "<mt:CommenterUserpicURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenteruserpicurl.html",
 		version: "MT4.1",
 	},
-	MTCommentID: {
+	commentid: {
 		codeBlock: "<mt:CommentID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentid.html",
 	},
-	MTCommentIfModerated: {
+	commentifmoderated: {
 		codeBlock: "<mt:CommentIfModerated></mt:CommentIfModerated>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentifmoderated.html",
 		version: "MT4",
 	},
-	MTCommentIP: {
+	commentip: {
 		codeBlock: "<mt:CommentIP>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentip.html",
 	},
-	MTCommentLink: {
+	commentlink: {
 		codeBlock: "<mt:CommentLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentlink.html",
 		version: "MT4.1",
 	},
-	MTCommentName: {
+	commentname: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentname.html",
 		deprecated: true,
 	},
-	MTCommentOrderNumber: {
+	commentordernumber: {
 		codeBlock: "<mt:CommentOrderNumber>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentordernumber.html",
 	},
-	MTCommentParent: {
+	commentparent: {
 		codeBlock: "<mt:CommentParent></mt:CommentParent>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentparent.html",
 		version: "MT4",
 	},
-	MTCommentParentID: {
+	commentparentid: {
 		codeBlock: "<mt:CommentParentID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentparentid.html",
 		version: "MT4.2",
 	},
-	MTCommentPreviewAuthor: {
+	commentpreviewauthor: {
 		codeBlock: "<mt:CommentPreviewAuthor>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentpreviewauthor.html",
 		deprecated: true,
 	},
-	MTCommentPreviewAuthorLink: {
+	commentpreviewauthorlink: {
 		codeBlock: "<mt:CommentPreviewAuthorLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentpreviewauthorlink.html",
 		deprecated: true,
 	},
-	MTCommentPreviewBody: {
+	commentpreviewbody: {
 		codeBlock: "<mt:CommentPreviewBody>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentpreviewbody.html",
 		deprecated: true,
 	},
-	MTCommentPreviewDate: {
+	commentpreviewdate: {
 		codeBlock: "<mt:CommentPreviewDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentpreviewdate.html",
 		deprecated: true,
 	},
-	MTCommentPreviewEmail: {
+	commentpreviewemail: {
 		codeBlock: "<mt:CommentPreviewEmail>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentpreviewemail.html",
 		deprecated: true,
 	},
-	MTCommentPreviewIP: {
+	commentpreviewip: {
 		codeBlock: "<mt:CommentPreviewIP>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentpreviewip.html",
 		deprecated: true,
 	},
-	MTCommentPreviewIsStatic: {
+	commentpreviewisstatic: {
 		codeBlock: "<mt:CommentPreviewIsStatic>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentpreviewisstatic.html",
 	},
-	MTCommentPreviewURL: {
+	commentpreviewurl: {
 		codeBlock: "<mt:CommentPreviewURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentpreviewurl.html",
 		deprecated: true,
 	},
-	MTCommentRank: {
+	commentrank: {
 		codeBlock: "<mt:CommentRank>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentrank.html",
 		version: "MT4",
 	},
-	MTCommentReplies: {
+	commentreplies: {
 		codeBlock: "<mt:CommentReplies></mt:CommentReplies>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentreplies.html",
 		version: "MT4",
 	},
-	MTCommentRepliesRecurse: {
+	commentrepliesrecurse: {
 		codeBlock: "<mt:CommentRepliesRecurse>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentrepliesrecurse.html",
 		version: "MT4",
 	},
-	MTCommentReplyToLink: {
+	commentreplytolink: {
 		codeBlock: "<mt:CommentReplyToLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentreplylink.html",
 		version: "MT4.2",
 	},
-	MTComments: {
+	comments: {
 		codeBlock: "<mt:Comments></mt:Comments>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/comments.html",
 	},
-	MTCommentScore: {
+	commentscore: {
 		codeBlock: "<mt:CommentScore>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentscore.html",
 		version: "MT4",
 	},
-	MTCommentScoreAvg: {
+	commentscoreavg: {
 		codeBlock: "<mt:CommentScoreAvg>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentscoreavg.html",
 		version: "MT4",
 	},
-	MTCommentScoreCount: {
+	commentscorecount: {
 		codeBlock: "<mt:CommentScoreCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentscorecount.html",
 		version: "MT4",
 	},
-	MTCommentScoreHigh: {
+	commentscorehigh: {
 		codeBlock: "<mt:CommentScoreHigh>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentscorehigh.html",
 		version: "MT4",
 	},
-	MTCommentScoreLow: {
+	commentscorelow: {
 		codeBlock: "<mt:CommentScoreLow>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentscorelow.html",
 		version: "MT4",
 	},
-	MTCommentScript: {
+	commentscript: {
 		codeBlock: "<mt:CommentScript>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentscript.html",
 	},
-	MTCommentsFooter: {
+	commentsfooter: {
 		codeBlock: "<mt:CommentsFooter></mt:CommentsFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentsfooter.html",
 	},
-	MTCommentsHeader: {
+	commentsheader: {
 		codeBlock: "<mt:CommentsHeader></mt:CommentsHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentsheader.html",
 	},
-	MTCommentSiteID: {
+	commentsiteid: {
 		codeBlock: "<mt:CommentSiteID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commentsiteid.html",
 		version: "MT7R.4207",
 	},
-	MTCommentURL: {
+	commenturl: {
 		codeBlock: "<mt:CommentURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/commenturl.html",
 	},
-	MTCommunityScript: {
+	communityscript: {
 		codeBlock: "<mt:CommunityScript>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/communityscript.html",
 	},
-	MTConfigFile: {
+	configfile: {
 		codeBlock: "<mt:ConfigFile>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/configfile.html",
 	},
-	MTContentAuthorDisplayName: {
+	contentauthordisplayname: {
 		codeBlock: "<mt:ContentAuthorDisplayName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentauthordisplayname.html",
 		version: "MT7R.4207",
 	},
-	MTContentAuthorEmail: {
+	contentauthoremail: {
 		codeBlock: "<mt:ContentAuthorEmail>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentauthoremail.html",
 		version: "MT7R.4207",
 	},
-	MTContentAuthorID: {
+	contentauthorid: {
 		codeBlock: "<mt:ContentAuthorID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentauthorid.html",
 		version: "MT7R.4207",
 	},
-	MTContentAuthorLink: {
+	contentauthorlink: {
 		codeBlock: "<mt:ContentAuthorLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentauthorlink.html",
 		version: "MT7R.4207",
 	},
-	MTContentAuthorURL: {
+	contentauthorurl: {
 		codeBlock: "<mt:ContentAuthorURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentauthorurl.html",
 		version: "MT7R.4207",
 	},
-	MTContentAuthorUsername: {
+	contentauthorusername: {
 		codeBlock: "<mt:ContentAuthorUsername>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentauthorusername.html",
 		version: "MT7R.4207",
 	},
-	MTContentAuthorUserpic: {
+	contentauthoruserpic: {
 		codeBlock: "<mt:ContentAuthorUserpic>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentauthoruserpic.html",
 		version: "MT7R.4207",
 	},
-	MTContentAuthorUserpicAsset: {
+	contentauthoruserpicasset: {
 		codeBlock: "<mt:ContentAuthorUserpicAsset></mt:ContentAuthorUserpicAsset>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentauthoruserpicasset.html",
 		version: "MT7R.4207",
 	},
-	MTContentAuthorUserpicURL: {
+	contentauthoruserpicurl: {
 		codeBlock: "<mt:ContentAuthorUserpicURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentauthoruserpicurl.html",
 		version: "MT7R.4207",
 	},
-	MTContentCalendar: {
+	contentcalendar: {
 		codeBlock: "<mt:ContentCalendar></mt:ContentCalendar>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentcalendar.html",
 		version: "MT7R.4207",
 	},
-	MTContentCreatedDate: {
+	contentcreateddate: {
 		codeBlock: "<mt:ContentCreatedDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentcreateddate.html",
 		version: "MT7R.4207",
 	},
-	MTContentDataSearchScript: {
+	contentdatasearchscript: {
 		codeBlock: "<mt:ContentDataSearchScript>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentdatasearchscript.html",
 		version: "MT7R.4601",
 	},
-	MTContentDate: {
+	contentdate: {
 		codeBlock: "<mt:ContentDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentdate.html",
 		version: "MT7R.4207",
 	},
-	MTContentField: {
+	contentfield: {
 		codeBlock: "<mt:ContentField></mt:ContentField>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentfield.html",
 		version: "MT7R.4207",
 	},
-	MTContentFields: {
+	contentfields: {
 		codeBlock: "<mt:ContentFields></mt:ContentFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentfields.html",
 		version: "MT7R.4207",
 	},
-	MTContentFieldValue: {
+	contentfieldvalue: {
 		codeBlock: "<mt:ContentFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentfieldvalue.html",
 		version: "MT7R.4207",
 	},
-	MTContentID: {
+	contentid: {
 		codeBlock: "<mt:ContentID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentid.html",
 		version: "MT7R.4207",
 	},
-	MTContentIdentifier: {
+	contentidentifier: {
 		codeBlock: "<mt:ContentIdentifier>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentidentifier.html",
 		version: "MT7R.4207",
 	},
-	MTContentLabel: {
+	contentlabel: {
 		codeBlock: "<mt:ContentLabel>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentlabel.html",
 		version: "MT7R.4207",
 	},
-	MTContentModifiedAuthorDisplayName: {
+	contentmodifiedauthordisplayname: {
 		codeBlock: "<mt:ContentModifiedAuthorDisplayName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentmodifiedauthordisplay.html",
 		version: "MT7R.5301",
 	},
-	MTContentModifiedAuthorEmail: {
+	contentmodifiedauthoremail: {
 		codeBlock: "<mt:ContentModifiedAuthorEmail>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentmodifiedauthoremail.html",
 		version: "MT7R.5301",
 	},
-	MTContentModifiedAuthorID: {
+	contentmodifiedauthorid: {
 		codeBlock: "<mt:ContentModifiedAuthorID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentmodifiedauthorid.html",
 		version: "MT7R.5301",
 	},
-	MTContentModifiedAuthorLink: {
+	contentmodifiedauthorlink: {
 		codeBlock: "<mt:ContentModifiedAuthorLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentmodifiedauthorlink.html",
 		version: "MT7R.5301",
 	},
-	MTContentModifiedAuthorURL: {
+	contentmodifiedauthorurl: {
 		codeBlock: "<mt:ContentModifiedAuthorURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentmodifiedauthorurl.html",
 		version: "MT7R.5301",
 	},
-	MTContentModifiedAuthorUsername: {
+	contentmodifiedauthorusername: {
 		codeBlock: "<mt:ContentModifiedAuthorUsername>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentmodifiedauthorusername.html",
 		version: "MT7R.5301",
 	},
-	MTContentModifiedAuthorUserpic: {
+	contentmodifiedauthoruserpic: {
 		codeBlock: "<mt:ContentModifiedAuthorUserpic>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentmodifiedauthoruserpic.html",
 		version: "MT7R.5301",
 	},
-	MTContentModifiedAuthorUserpicAsset: {
+	contentmodifiedauthoruserpicasset: {
 		codeBlock: "<mt:ContentModifiedAuthorUserpicAsset>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentmodifiedauthoruserpic.html",
 		version: "MT7R.5301",
 	},
-	MTContentModifiedAuthorUserpicURL: {
+	contentmodifiedauthoruserpicurl: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentmodifiedauthoruserpic.html",
 	},
-	MTContentModifiedDate: {
+	contentmodifieddate: {
 		codeBlock: "<mt:ContentModifiedDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentmodifieddate.html",
 		version: "MT7R.4207",
 	},
-	MTContentNext: {
+	contentnext: {
 		codeBlock: "<mt:ContentNext></mt:ContentNext>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentnext.html",
 		version: "MT7R.4207",
 	},
-	MTContentPermalink: {
+	contentpermalink: {
 		codeBlock: "<mt:ContentPermalink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentpermalink.html",
 		version: "MT7R.4207",
 	},
-	MTContentPrevious: {
+	contentprevious: {
 		codeBlock: "<mt:ContentPrevious></mt:ContentPrevious>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentprevious.html",
 		version: "MT7R.4207",
 	},
-	MTContents: {
+	contents: {
 		codeBlock: "<mt:Contents></mt:Contents>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/contents.html",
 		version: "MT7R.4207",
 	},
-	MTContentsCount: {
+	contentscount: {
 		codeBlock: "<mt:ContentsCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentscount.html",
 		version: "MT7R.4207",
 	},
-	MTContentsFooter: {
+	contentsfooter: {
 		codeBlock: "<mt:ContentsFooter></mt:ContentsFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentsfooter.html",
 		version: "MT7R.4207",
 	},
-	MTContentsHeader: {
+	contentsheader: {
 		codeBlock: "<mt:ContentsHeader></mt:ContentsHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentsheader.html",
 		version: "MT7R.4207",
 	},
-	MTContentSiteDescription: {
+	contentsitedescription: {
 		codeBlock: "<mt:ContentSiteDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentsitedescription.html",
 		version: "MT7R.4207",
 	},
-	MTContentSiteID: {
+	contentsiteid: {
 		codeBlock: "<mt:ContentSiteID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentsiteid.html",
 		version: "MT7R.4207",
 	},
-	MTContentSiteName: {
+	contentsitename: {
 		codeBlock: "<mt:ContentSiteName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentsitename.html",
 		version: "MT7R.4207",
 	},
-	MTContentSiteURL: {
+	contentsiteurl: {
 		codeBlock: "<mt:ContentSiteURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentsiteurl.html",
 		version: "MT7R.4207",
 	},
-	MTContentStatus: {
+	contentstatus: {
 		codeBlock: "<mt:ContentStatus>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentstatus.html",
 		version: "MT7R.4207",
 	},
-	MTContentTypeDescription: {
+	contenttypedescription: {
 		codeBlock: "<mt:ContentTypeDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contenttypedescription.html",
 		version: "MT7R.4207",
 	},
-	MTContentTypeID: {
+	contenttypeid: {
 		codeBlock: "<mt:ContentTypeID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contenttypeid.html",
 		version: "MT7R.4207",
 	},
-	MTContentTypeName: {
+	contenttypename: {
 		codeBlock: "<mt:ContentTypeName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contenttypename.html",
 		version: "MT7R.4207",
 	},
-	MTContentTypeUniqueId: {
+	contenttypeuniqueid: {
 		codeBlock: "<mt:ContentTypeUniqueId>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contenttypeuniqueid.html",
 		version: "MT7R.4207",
 	},
-	MTContentUniqueID: {
+	contentuniqueid: {
 		codeBlock: "<mt:ContentUniqueID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentuniqueid.html",
 		version: "MT7R.4207",
 	},
-	MTContentUnpublishedDate: {
+	contentunpublisheddate: {
 		codeBlock: "<mt:ContentUnpublishedDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/contentunpublisheddate.html",
 		version: "MT7R.4207",
 	},
-	MTCurrentPage: {
+	currentpage: {
 		codeBlock: "<mt:CurrentPage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/currentpage.html",
 		version: "MT4.2",
 	},
-	MTCustomFieldAsset: {
+	customfieldasset: {
 		codeBlock: "<mt:CustomFieldAsset></mt:CustomFieldAsset>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/mtcustomfieldasset.html",
 	},
-	MTCustomFieldBasename: {
+	customfieldbasename: {
 		codeBlock: "<mt:CustomFieldBasename>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/customfieldbasename.html",
 		version: "MT4.1",
 	},
-	MTCustomFieldDescription: {
+	customfielddescription: {
 		codeBlock: "<mt:CustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/customfielddescription.html",
 		version: "MT4.1",
 	},
-	MTCustomFieldHTML: {
+	customfieldhtml: {
 		codeBlock: "<mt:CustomFieldHTML>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/customfieldhtml.html",
 		version: "MT4.1",
 	},
-	MTCustomFieldIsRequired: {
+	customfieldisrequired: {
 		codeBlock: "<mt:CustomFieldIsRequired></mt:CustomFieldIsRequired>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/customfieldisrequired.html",
 		version: "MT5.0",
 	},
-	MTCustomFieldName: {
+	customfieldname: {
 		codeBlock: "<mt:CustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/customfieldname.html",
 		version: "MT4.1",
 	},
-	MTCustomFieldValue: {
+	customfieldvalue: {
 		codeBlock: "<mt:CustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/customfieldvalue.html",
 		version: "MT4.1",
 	},
-	MTDataAPIScript: {
+	dataapiscript: {
 		codeBlock: "<mt:DataAPIScript>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/dataapiscript.html",
 		version: "MT6.0",
 	},
-	MTDataAPIVersion: {
+	dataapiversion: {
 		codeBlock: "<mt:DataAPIVersion>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/dataapiversion.html",
 		version: "MT6.0",
 	},
-	MTDate: {
+	date: {
 		codeBlock: "<mt:Date>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/date.html",
 	},
-	MTDateFooter: {
+	datefooter: {
 		codeBlock: "<mt:DateFooter></mt:DateFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/datefooter.html",
 	},
-	MTDateHeader: {
+	dateheader: {
 		codeBlock: "<mt:DateHeader></mt:DateHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/dateheader.html",
 	},
-	MTDefaultLanguage: {
+	defaultlanguage: {
 		codeBlock: "<mt:DefaultLanguage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/defaultlanguage.html",
 	},
-	MTElse: {
+	else: {
 		codeBlock: "<mt:Else></mt:Else>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/else.html",
 		version: "MT4.1",
 	},
-	MTElseIf: {
+	elseif: {
 		codeBlock: "<mt:ElseIf></mt:ElseIf>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/elseif.html",
 		version: "MT4.1",
 	},
-	MTEntries: {
+	entries: {
 		codeBlock: "<mt:Entries></mt:Entries>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entries.html",
 	},
-	MTEntriesCount: {
+	entriescount: {
 		codeBlock: "<mt:EntriesCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entriescount.html",
 	},
-	MTEntriesFooter: {
+	entriesfooter: {
 		codeBlock: "<mt:EntriesFooter></mt:EntriesFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entriesfooter.html",
 	},
-	MTEntriesHeader: {
+	entriesheader: {
 		codeBlock: "<mt:EntriesHeader></mt:EntriesHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entriesheader.html",
 	},
-	MTEntriesWithSubCategories: {
+	entrieswithsubcategories: {
 		codeBlock: "<mt:EntriesWithSubCategories></mt:EntriesWithSubCategories>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrieswithsubcategories.html",
 	},
-	MTEntryAdditionalCategories: {
+	entryadditionalcategories: {
 		codeBlock: "<mt:EntryAdditionalCategories></mt:EntryAdditionalCategories>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryadditionalcategories.html",
 	},
-	MTEntryAssets: {
+	entryassets: {
 		codeBlock: "<mt:EntryAssets></mt:EntryAssets>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryassets.html",
 		version: "MT4",
 	},
-	MTEntryAtomID: {
+	entryatomid: {
 		codeBlock: "<mt:EntryAtomID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryatomid.html",
 	},
-	MTEntryAuthor: {
+	entryauthor: {
 		codeBlock: "<mt:EntryAuthor>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthor.html",
 		deprecated: true,
 	},
-	MTEntryAuthorDisplayName: {
+	entryauthordisplayname: {
 		codeBlock: "<mt:EntryAuthorDisplayName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthordisplayname.html",
 	},
-	MTEntryAuthorEmail: {
+	entryauthoremail: {
 		codeBlock: "<mt:EntryAuthorEmail>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthoremail.html",
 	},
-	MTEntryAuthorID: {
+	entryauthorid: {
 		codeBlock: "<mt:EntryAuthorID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthorid.html",
 		version: "MT4",
 	},
-	MTEntryAuthorLink: {
+	entryauthorlink: {
 		codeBlock: "<mt:EntryAuthorLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthorlink.html",
 	},
-	MTEntryAuthorNickname: {
+	entryauthornickname: {
 		codeBlock: "<mt:EntryAuthorNickname>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthornickname.html",
 		deprecated: true,
 	},
-	MTEntryAuthorURL: {
+	entryauthorurl: {
 		codeBlock: "<mt:EntryAuthorURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthorurl.html",
 	},
-	MTEntryAuthorUsername: {
+	entryauthorusername: {
 		codeBlock: "<mt:EntryAuthorUsername>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthorusername.html",
 	},
-	MTEntryAuthorUserpic: {
+	entryauthoruserpic: {
 		codeBlock: "<mt:EntryAuthorUserpic>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthoruserpic.html",
 		version: "MT4.1",
 	},
-	MTEntryAuthorUserpicAsset: {
+	entryauthoruserpicasset: {
 		codeBlock: "<mt:EntryAuthorUserpicAsset></mt:EntryAuthorUserpicAsset>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthoruserpicasset.html",
 		version: "MT4.1",
 	},
-	MTEntryAuthorUserpicURL: {
+	entryauthoruserpicurl: {
 		codeBlock: "<mt:EntryAuthorUserpicURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryauthoruserpicurl.html",
 		version: "MT4.1",
 	},
-	MTEntryBasename: {
+	entrybasename: {
 		codeBlock: "<mt:EntryBasename>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrybasename.html",
 	},
-	MTEntryBlogDescription: {
+	entryblogdescription: {
 		codeBlock: "<mt:EntryBlogDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryblogdescription.html",
 	},
-	MTEntryBlogID: {
+	entryblogid: {
 		codeBlock: "<mt:EntryBlogID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryblogid.html",
 	},
-	MTEntryBlogName: {
+	entryblogname: {
 		codeBlock: "<mt:EntryBlogName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryblogname.html",
 	},
-	MTEntryBlogURL: {
+	entryblogurl: {
 		codeBlock: "<mt:EntryBlogURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryblogurl.html",
 	},
-	MTEntryBody: {
+	entrybody: {
 		codeBlock: "<mt:EntryBody>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrybody.html",
 	},
-	MTEntryCategories: {
+	entrycategories: {
 		codeBlock: "<mt:EntryCategories></mt:EntryCategories>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrycategories.html",
 	},
-	MTEntryCategory: {
+	entrycategory: {
 		codeBlock: "<mt:EntryCategory>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrycategory.html",
 	},
-	MTEntryClass: {
+	entryclass: {
 		codeBlock: "<mt:EntryClass>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryclass.html",
 		version: "MT4",
 	},
-	MTEntryClassLabel: {
+	entryclasslabel: {
 		codeBlock: "<mt:EntryClassLabel>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryclasslabel.html",
 		version: "MT4.1",
 	},
-	MTEntryCommentCount: {
+	entrycommentcount: {
 		codeBlock: "<mt:EntryCommentCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrycommentcount.html",
 	},
-	MTEntryCreatedDate: {
+	entrycreateddate: {
 		codeBlock: "<mt:EntryCreatedDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrycreateddate.html",
 		version: "MT4",
 	},
-	MTEntryCustomFieldDescription: {
+	entrycustomfielddescription: {
 		codeBlock: "<mt:EntryCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrycustomfielddescription.html",
 		version: "MT4.1",
 	},
-	MTEntryCustomFieldName: {
+	entrycustomfieldname: {
 		codeBlock: "<mt:EntryCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrycustomfieldname.html",
 		version: "MT4.1",
 	},
-	MTEntryCustomFields: {
+	entrycustomfields: {
 		codeBlock: "<mt:EntryCustomFields></mt:EntryCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrycustomfields.html",
 		version: "MT4.1",
 	},
-	MTEntryCustomFieldValue: {
+	entrycustomfieldvalue: {
 		codeBlock: "<mt:EntryCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrycustomfieldvalue.html",
 		version: "MT4.1",
 	},
-	MTEntryDate: {
+	entrydate: {
 		codeBlock: "<mt:EntryDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrydate.html",
 	},
-	MTEntryEditLink: {
+	entryeditlink: {
 		codeBlock: "<mt:EntryEditLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryeditlink.html",
 		deprecated: true,
 	},
-	MTEntryExcerpt: {
+	entryexcerpt: {
 		codeBlock: "<mt:EntryExcerpt>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryexcerpt.html",
 	},
-	MTEntryFlag: {
+	entryflag: {
 		codeBlock: "<mt:EntryFlag>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryflag.html",
 	},
-	MTEntryID: {
+	entryid: {
 		codeBlock: "<mt:EntryID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryid.html",
 	},
-	MTEntryIfAllowComments: {
+	entryifallowcomments: {
 		codeBlock: "<mt:EntryIfAllowComments></mt:EntryIfAllowComments>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryifallowcomments.html",
 		deprecated: true,
 	},
-	MTEntryIfAllowPings: {
+	entryifallowpings: {
 		codeBlock: "<mt:EntryIfAllowPings></mt:EntryIfAllowPings>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryifallowpings.html",
 		deprecated: true,
 	},
-	MTEntryIfCategory: {
+	entryifcategory: {
 		codeBlock: "<mt:EntryIfCategory></mt:EntryIfCategory>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryifcategory.html",
 		deprecated: true,
 	},
-	MTEntryIfCommentsOpen: {
+	entryifcommentsopen: {
 		codeBlock: "<mt:EntryIfCommentsOpen></mt:EntryIfCommentsOpen>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryifcommentsopen.html",
 		deprecated: true,
 	},
-	MTEntryIfExtended: {
+	entryifextended: {
 		codeBlock: "<mt:EntryIfExtended></mt:EntryIfExtended>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryifextended.html",
 	},
-	MTEntryIfTagged: {
+	entryiftagged: {
 		codeBlock: "<mt:EntryIfTagged></mt:EntryIfTagged>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryiftagged.html",
 	},
-	MTEntryKeywords: {
+	entrykeywords: {
 		codeBlock: "<mt:EntryKeywords>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrykeywords.html",
 	},
-	MTEntryLink: {
+	entrylink: {
 		codeBlock: "<mt:EntryLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrylink.html",
 	},
-	MTEntryModifiedAuthorDisplayName: {
+	entrymodifiedauthordisplayname: {
 		codeBlock: "<mt:EntryModifiedAuthorDisplayName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymodifiedauthordisplayname.html",
 		version: "MT7R.5301",
 	},
-	MTEntryModifiedAuthorEmail: {
+	entrymodifiedauthoremail: {
 		codeBlock: "<mt:EntryModifiedAuthorEmail>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymodifiedauthoremail.html",
 		version: "MT7R.5301",
 	},
-	MTEntryModifiedAuthorID: {
+	entrymodifiedauthorid: {
 		codeBlock: "<mt:EntryModifiedAuthorID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymodifiedauthorid.html",
 		version: "MT7R.5301",
 	},
-	MTEntryModifiedAuthorLink: {
+	entrymodifiedauthorlink: {
 		codeBlock: "<mt:EntryModifiedAuthorLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymodifiedauthorlink.html",
 		version: "MT7R.5301",
 	},
-	MTEntryModifiedAuthorURL: {
+	entrymodifiedauthorurl: {
 		codeBlock: "<mt:EntryModifiedAuthorURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymodifiedauthorurl.html",
 		version: "MT7R.5301",
 	},
-	MTEntryModifiedAuthorUsername: {
+	entrymodifiedauthorusername: {
 		codeBlock: "<mt:EntryModifiedAuthorUsername>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymodifiedauthorusername.html",
 		version: "MT7R.5301",
 	},
-	MTEntryModifiedAuthorUserpic: {
+	entrymodifiedauthoruserpic: {
 		codeBlock: "<mt:EntryModifiedAuthorUserpic>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymodifiedauthoruserpic.html",
 		version: "MT7R.5301",
 	},
-	MTEntryModifiedAuthorUserpicAsset: {
+	entrymodifiedauthoruserpicasset: {
 		codeBlock: "<mt:EntryModifiedAuthorUserpicAsset>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymodifiedauthoruserpicas.html",
 		version: "MT7R.5301",
 	},
-	MTEntryModifiedAuthorUserpicURL: {
+	entrymodifiedauthoruserpicurl: {
 		codeBlock: "<mt:EntryModifiedAuthorUserpicURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymodifiedauthoruserpicurl.html",
 		version: "MT7R.5301",
 	},
-	MTEntryModifiedDate: {
+	entrymodifieddate: {
 		codeBlock: "<mt:EntryModifiedDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymodifieddate.html",
 	},
-	MTEntryMore: {
+	entrymore: {
 		codeBlock: "<mt:EntryMore>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrymore.html",
 	},
-	MTEntryNext: {
+	entrynext: {
 		codeBlock: "<mt:EntryNext></mt:EntryNext>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrynext.html",
 	},
-	MTEntryPermalink: {
+	entrypermalink: {
 		codeBlock: "<mt:EntryPermalink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrypermalink.html",
 	},
-	MTEntryPrevious: {
+	entryprevious: {
 		codeBlock: "<mt:EntryPrevious></mt:EntryPrevious>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryprevious.html",
 	},
-	MTEntryPrimaryCategory: {
+	entryprimarycategory: {
 		codeBlock: "<mt:EntryPrimaryCategory></mt:EntryPrimaryCategory>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryprimarycategory.html",
 		version: "MT5.1",
 	},
-	MTEntryRank: {
+	entryrank: {
 		codeBlock: "<mt:EntryRank>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryrank.html",
 		version: "MT4",
 	},
-	MTEntryRecommendedTotal: {
+	entryrecommendedtotal: {
 		codeBlock: "<mt:EntryRecommendedTotal>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryrecommendedtotal.html",
 	},
-	MTEntryRecommendVoteLink: {
+	entryrecommendvotelink: {
 		codeBlock: "<mt:EntryRecommendVoteLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryrecommendvotelink.html",
 	},
-	MTEntryScore: {
+	entryscore: {
 		codeBlock: "<mt:EntryScore>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryscore.html",
 		version: "MT4",
 	},
-	MTEntryScoreAvg: {
+	entryscoreavg: {
 		codeBlock: "<mt:EntryScoreAvg>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryscoreavg.html",
 		version: "MT4",
 	},
-	MTEntryScoreCount: {
+	entryscorecount: {
 		codeBlock: "<mt:EntryScoreCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryscorecount.html",
 		version: "MT4",
 	},
-	MTEntryScoreHigh: {
+	entryscorehigh: {
 		codeBlock: "<mt:EntryScoreHigh>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryscorehigh.html",
 		version: "MT4",
 	},
-	MTEntryScoreLow: {
+	entryscorelow: {
 		codeBlock: "<mt:EntryScoreLow>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entryscorelow.html",
 		version: "MT4",
 	},
-	MTEntrySiteDescription: {
+	entrysitedescription: {
 		codeBlock: "<mt:EntrySiteDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrysitedescription.html",
 		version: "MT7R.4207",
 	},
-	MTEntrySiteID: {
+	entrysiteid: {
 		codeBlock: "<mt:EntrySiteID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrysiteid.html",
 		version: "MT7R.4207",
 	},
-	MTEntrySiteName: {
+	entrysitename: {
 		codeBlock: "<mt:EntrySiteName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrysitename.html",
 		version: "MT7R.4207",
 	},
-	MTEntrySiteURL: {
+	entrysiteurl: {
 		codeBlock: "<mt:EntrySiteURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrysiteurl.html",
 		version: "MT7R.4207",
 	},
-	MTEntryStatus: {
+	entrystatus: {
 		codeBlock: "<mt:EntryStatus>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrystatus.html",
 		version: "MT6.0",
 	},
-	MTEntryTags: {
+	entrytags: {
 		codeBlock: "<mt:EntryTags></mt:EntryTags>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrytags.html",
 	},
-	MTEntryTitle: {
+	entrytitle: {
 		codeBlock: "<mt:EntryTitle>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrytitle.html",
 	},
-	MTEntryTrackbackCount: {
+	entrytrackbackcount: {
 		codeBlock: "<mt:EntryTrackbackCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrytrackbackcount.html",
 	},
-	MTEntryTrackbackData: {
+	entrytrackbackdata: {
 		codeBlock: "<mt:EntryTrackbackData>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrytrackbackdata.html",
 	},
-	MTEntryTrackbackID: {
+	entrytrackbackid: {
 		codeBlock: "<mt:EntryTrackbackID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrytrackbackid.html",
 	},
-	MTEntryTrackbackLink: {
+	entrytrackbacklink: {
 		codeBlock: "<mt:EntryTrackbackLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/entrytrackbacklink.html",
 	},
-	MTErrorMessage: {
+	errormessage: {
 		codeBlock: "<mt:ErrorMessage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/errormessage.html",
 	},
-	MTFeed: {
+	feed: {
 		codeBlock: "<mt:Feed></mt:Feed>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/feed.html",
 		version: "MT4",
 	},
-	MTFeedbackScore: {
+	feedbackscore: {
 		codeBlock: "<mt:FeedbackScore>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/feedbackscore.html",
 	},
-	MTFeedEntries: {
+	feedentries: {
 		codeBlock: "<mt:FeedEntries></mt:FeedEntries>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/feedentries.html",
 		version: "MT4",
 	},
-	MTFeedEntryLink: {
+	feedentrylink: {
 		codeBlock: "<mt:FeedEntryLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/feedentrylink.html",
 		version: "MT4",
 	},
-	MTFeedEntryTitle: {
+	feedentrytitle: {
 		codeBlock: "<mt:FeedEntryTitle>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/feedentrytitle.html",
 		version: "MT4",
 	},
-	MTFeedInclude: {
+	feedinclude: {
 		codeBlock: "<mt:FeedInclude>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/feedinclude.html",
 		version: "MT4",
 	},
-	MTFeedLink: {
+	feedlink: {
 		codeBlock: "<mt:FeedLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/feedlink.html",
 		version: "MT4",
 	},
-	MTFeedTitle: {
+	feedtitle: {
 		codeBlock: "<mt:FeedTitle>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/feedtitle.html",
 		version: "MT4",
 	},
-	MTFileCustomFieldDescription: {
+	filecustomfielddescription: {
 		codeBlock: "<mt:FileCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/filecustomfielddescription.html",
 		version: "MT5.0",
 	},
-	MTFileCustomFieldName: {
+	filecustomfieldname: {
 		codeBlock: "<mt:FileCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/filecustomfieldname.html",
 		version: "MT5.0",
 	},
-	MTFileCustomFields: {
+	filecustomfields: {
 		codeBlock: "<mt:FileCustomFields></mt:FileCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/filecustomfields.html",
 		version: "MT5.0",
 	},
-	MTFileCustomFieldValue: {
+	filecustomfieldvalue: {
 		codeBlock: "<mt:FileCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/filecustomfieldvalue.html",
 		version: "MT5.0",
 	},
-	MTFileTemplate: {
+	filetemplate: {
 		codeBlock: "<mt:FileTemplate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/filetemplate.html",
 	},
-	MTFolderBasename: {
+	folderbasename: {
 		codeBlock: "<mt:FolderBasename>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/folderbasename.html",
 		version: "MT4",
 	},
-	MTFolderCount: {
+	foldercount: {
 		codeBlock: "<mt:FolderCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/foldercount.html",
 		version: "MT4",
 	},
-	MTFolderCustomFieldDescription: {
+	foldercustomfielddescription: {
 		codeBlock: "<mt:FolderCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/foldercustomfielddescription.html",
 		version: "MT4.1",
 	},
-	MTFolderCustomFieldName: {
+	foldercustomfieldname: {
 		codeBlock: "<mt:FolderCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/foldercustomfieldname.html",
 		version: "MT4.1",
 	},
-	MTFolderCustomFields: {
+	foldercustomfields: {
 		codeBlock: "<mt:FolderCustomFields></mt:FolderCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/foldercustomfields.html",
 		version: "MT4.1",
 	},
-	MTFolderCustomFieldValue: {
+	foldercustomfieldvalue: {
 		codeBlock: "<mt:FolderCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/foldercustomfieldvalue.html",
 		version: "MT4.1",
 	},
-	MTFolderDescription: {
+	folderdescription: {
 		codeBlock: "<mt:FolderDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/folderdescription.html",
 		version: "MT4",
 	},
-	MTFolderFooter: {
+	folderfooter: {
 		codeBlock: "<mt:FolderFooter></mt:FolderFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/folderfooter.html",
 		version: "MT4",
 	},
-	MTFolderHeader: {
+	folderheader: {
 		codeBlock: "<mt:FolderHeader></mt:FolderHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/folderheader.html",
 		version: "MT4",
 	},
-	MTFolderID: {
+	folderid: {
 		codeBlock: "<mt:FolderID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/folderid.html",
 		version: "MT4",
 	},
-	MTFolderLabel: {
+	folderlabel: {
 		codeBlock: "<mt:FolderLabel>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/folderlabel.html",
 		version: "MT4",
 	},
-	MTFolderNext: {
+	foldernext: {
 		codeBlock: "<mt:FolderNext></mt:FolderNext>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/foldernext.html",
 		version: "MT4",
 	},
-	MTFolderPath: {
+	folderpath: {
 		codeBlock: "<mt:FolderPath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/folderpath.html",
 		version: "MT4",
 	},
-	MTFolderPrevious: {
+	folderprevious: {
 		codeBlock: "<mt:FolderPrevious></mt:FolderPrevious>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/folderprevious.html",
 		version: "MT4",
 	},
-	MTFolders: {
+	folders: {
 		codeBlock: "<mt:Folders></mt:Folders>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/folders.html",
 		version: "MT4",
 	},
-	MTFor: {
+	for: {
 		codeBlock: "<mt:For></mt:For>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/for.html",
 		version: "MT4.1",
 	},
-	MTGetVar: {
+	getvar: {
 		codeBlock: "<mt:GetVar>",
 		description: "",
 		type: "FUNCTION",
@@ -2813,504 +2813,504 @@ export const mtTags: IItems = {
 		deprecated: true,
 		version: "MT4.1",
 	},
-	MTHasNoParentCategory: {
+	hasnoparentcategory: {
 		codeBlock: "<mt:HasNoParentCategory></mt:HasNoParentCategory>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/hasnoparentcategory.html",
 	},
-	MTHasNoParentFolder: {
+	hasnoparentfolder: {
 		codeBlock: "<mt:HasNoParentFolder></mt:HasNoParentFolder>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/hasnoparentfolder.html",
 		version: "MT6.0",
 	},
-	MTHasNoSubCategories: {
+	hasnosubcategories: {
 		codeBlock: "<mt:HasNoSubCategories></mt:HasNoSubCategories>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/hasnosubcategories.html",
 	},
-	MTHasNoSubFolders: {
+	hasnosubfolders: {
 		codeBlock: "<mt:HasNoSubFolders></mt:HasNoSubFolders>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/hasnosubfolders.html",
 		version: "MT6.0",
 	},
-	MTHasParentCategory: {
+	hasparentcategory: {
 		codeBlock: "<mt:HasParentCategory></mt:HasParentCategory>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/hasparentcategory.html",
 	},
-	MTHasParentFolder: {
+	hasparentfolder: {
 		codeBlock: "<mt:HasParentFolder></mt:HasParentFolder>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/hasparentfolder.html",
 		version: "MT4",
 	},
-	MTHasSubCategories: {
+	hassubcategories: {
 		codeBlock: "<mt:HasSubCategories></mt:HasSubCategories>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/hassubcategories.html",
 	},
-	MTHasSubFolders: {
+	hassubfolders: {
 		codeBlock: "<mt:HasSubFolders></mt:HasSubFolders>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/hassubfolders.html",
 		version: "MT4",
 	},
-	MTHTTPContentType: {
+	httpcontenttype: {
 		codeBlock: "<mt:HTTPContentType>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/httpcontenttype.html",
 	},
-	MTIf: {
+	if: {
 		codeBlock: "<mt:If></mt:If>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/if.html",
 		version: "MT4.1",
 	},
-	MTIfAllowCommentHTML: {
+	ifallowcommenthtml: {
 		codeBlock: "<mt:IfAllowCommentHTML></mt:IfAllowCommentHTML>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifallowcommenthtml.html",
 	},
-	MTIfAnonymousRecommendAllowed: {
+	ifanonymousrecommendallowed: {
 		codeBlock:
 			"<mt:IfAnonymousRecommendAllowed></mt:IfAnonymousRecommendAllowed>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifanonymousrecommendallowed.html",
 	},
-	MTIfArchiveType: {
+	ifarchivetype: {
 		codeBlock: "<mt:IfArchiveType></mt:IfArchiveType>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifarchivetype.html",
 		version: "MT4",
 	},
-	MTIfArchiveTypeEnabled: {
+	ifarchivetypeenabled: {
 		codeBlock: "<mt:IfArchiveTypeEnabled></mt:IfArchiveTypeEnabled>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifarchivetypeenabled.html",
 	},
-	MTIfBlog: {
+	ifblog: {
 		codeBlock: "<mt:IfBlog></mt:IfBlog>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifblog.html",
 		version: "MT4.1",
 	},
-	MTIfCategory: {
+	ifcategory: {
 		codeBlock: "<mt:IfCategory></mt:IfCategory>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcategory.html",
 	},
-	MTIfCommenterIsAuthor: {
+	ifcommenterisauthor: {
 		codeBlock: "<mt:IfCommenterIsAuthor></mt:IfCommenterIsAuthor>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcommenterisauthor.html",
 		version: "MT4",
 	},
-	MTIfCommenterIsEntryAuthor: {
+	ifcommenterisentryauthor: {
 		codeBlock: "<mt:IfCommenterIsEntryAuthor></mt:IfCommenterIsEntryAuthor>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcommenterisentryauthor.html",
 		version: "MT4",
 	},
-	MTIfCommenterTrusted: {
+	ifcommentertrusted: {
 		codeBlock: "<mt:IfCommenterTrusted></mt:IfCommenterTrusted>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcommentertrusted.html",
 	},
-	MTIfCommentParent: {
+	ifcommentparent: {
 		codeBlock: "<mt:IfCommentParent></mt:IfCommentParent>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcommentparent.html",
 		version: "MT4",
 	},
-	MTIfCommentReplies: {
+	ifcommentreplies: {
 		codeBlock: "<mt:IfCommentReplies></mt:IfCommentReplies>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcommentreplies.html",
 		version: "MT4",
 	},
-	MTIfCommentsAccepted: {
+	ifcommentsaccepted: {
 		codeBlock: "<mt:IfCommentsAccepted></mt:IfCommentsAccepted>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcommentsaccepted.html",
 	},
-	MTIfCommentsActive: {
+	ifcommentsactive: {
 		codeBlock: "<mt:IfCommentsActive></mt:IfCommentsActive>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcommentsactive.html",
 	},
-	MTIfCommentsAllowed: {
+	ifcommentsallowed: {
 		codeBlock: "<mt:IfCommentsAllowed></mt:IfCommentsAllowed>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcommentsallowed.html",
 	},
-	MTIfCommentsModerated: {
+	ifcommentsmoderated: {
 		codeBlock: "<mt:IfCommentsModerated></mt:IfCommentsModerated>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcommentsmoderated.html",
 	},
-	MTIfCurrentPage: {
+	ifcurrentpage: {
 		codeBlock: "<mt:IfCurrentPage></mt:IfCurrentPage>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifcurrentpage.html",
 		version: "MT4.2",
 	},
-	MTIfDynamic: {
+	ifdynamic: {
 		codeBlock: "<mt:IfDynamic></mt:IfDynamic>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifdynamic.html",
 	},
-	MTIfEntryRecommended: {
+	ifentryrecommended: {
 		codeBlock: "<mt:IfEntryRecommended>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifentryrecommended.html",
 		deprecated: true,
 	},
-	MTIfExternalUserManagement: {
+	ifexternalusermanagement: {
 		codeBlock: "<mt:IfExternalUserManagement></mt:IfExternalUserManagement>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/mtifexternalusermanagement.html",
 	},
-	MTIfFolder: {
+	iffolder: {
 		codeBlock: "<mt:IfFolder></mt:IfFolder>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/iffolder.html",
 		version: "MT4",
 	},
-	MTIfImageSupport: {
+	ifimagesupport: {
 		codeBlock: "<mt:IfImageSupport></mt:IfImageSupport>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifimagesupport.html",
 		version: "MT4.1",
 	},
-	MTIfIsAncestor: {
+	ifisancestor: {
 		codeBlock: "<mt:IfIsAncestor></mt:IfIsAncestor>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifisancestor.html",
 	},
-	MTIfIsDescendant: {
+	ifisdescendant: {
 		codeBlock: "<mt:IfIsDescendant></mt:IfIsDescendant>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifisdescendant.html",
 	},
-	MTIfLoggedIn: {
+	ifloggedin: {
 		codeBlock: "<mt:IfLoggedIn></mt:IfLoggedIn>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifloggedin.html",
 	},
-	MTIfMaxResultsCutoff: {
+	ifmaxresultscutoff: {
 		codeBlock: "<mt:IfMaxResultsCutoff></mt:IfMaxResultsCutoff>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifmaxresultscutoff.html",
 		deprecated: true,
 	},
-	MTIfMoreResults: {
+	ifmoreresults: {
 		codeBlock: "<mt:IfMoreResults></mt:IfMoreResults>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifmoreresults.html",
 		version: "MT4.2",
 	},
-	MTIfNeedEmail: {
+	ifneedemail: {
 		codeBlock: "<mt:IfNeedEmail></mt:IfNeedEmail>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifneedemail.html",
 	},
-	MTIfNonEmpty: {
+	ifnonempty: {
 		codeBlock: "<mt:IfNonEmpty></mt:IfNonEmpty>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifnonempty.html",
 		deprecated: true,
 	},
-	MTIfNonZero: {
+	ifnonzero: {
 		codeBlock: "<mt:IfNonZero></mt:IfNonZero>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifnonzero.html",
 		deprecated: true,
 	},
-	MTIfPingsAccepted: {
+	ifpingsaccepted: {
 		codeBlock: "<mt:IfPingsAccepted></mt:IfPingsAccepted>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifpingsaccepted.html",
 	},
-	MTIfPingsActive: {
+	ifpingsactive: {
 		codeBlock: "<mt:IfPingsActive></mt:IfPingsActive>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifpingsactive.html",
 	},
-	MTIfPingsAllowed: {
+	ifpingsallowed: {
 		codeBlock: "<mt:IfPingsAllowed></mt:IfPingsAllowed>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifpingsallowed.html",
 	},
-	MTIfPingsModerated: {
+	ifpingsmoderated: {
 		codeBlock: "<mt:IfPingsModerated></mt:IfPingsModerated>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifpingsmoderated.html",
 	},
-	MTIfPreviousResults: {
+	ifpreviousresults: {
 		codeBlock: "<mt:IfPreviousResults></mt:IfPreviousResults>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifpreviousresults.html",
 		version: "MT4.2",
 	},
-	MTIfRegistrationAllowed: {
+	ifregistrationallowed: {
 		codeBlock: "<mt:IfRegistrationAllowed></mt:IfRegistrationAllowed>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifregistrationallowed.html",
 	},
-	MTIfRegistrationNotRequired: {
+	ifregistrationnotrequired: {
 		codeBlock: "<mt:IfRegistrationNotRequired></mt:IfRegistrationNotRequired>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifregistrationnotrequired.html",
 	},
-	MTIfRegistrationRequired: {
+	ifregistrationrequired: {
 		codeBlock: "<mt:IfRegistrationRequired></mt:IfRegistrationRequired>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifregistrationrequired.html",
 	},
-	MTIfRequireCommentEmails: {
+	ifrequirecommentemails: {
 		codeBlock: "<mt:IfRequireCommentEmails></mt:IfRequireCommentEmails>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifrequirecommentemails.html",
 	},
-	MTIfStatic: {
+	ifstatic: {
 		codeBlock: "<mt:IfStatic></mt:IfStatic>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifstatic.html",
 	},
-	MTIfStraightSearch: {
+	ifstraightsearch: {
 		codeBlock: "<mt:IfStraightSearch></mt:IfStraightSearch>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifstraightsearch.html",
 	},
-	MTIfTagSearch: {
+	iftagsearch: {
 		codeBlock: "<mt:IfTagSearch></mt:IfTagSearch>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/iftagsearch.html",
 	},
-	MTIfTypeKeyToken: {
+	iftypekeytoken: {
 		codeBlock: "<mt:IfTypeKeyToken></mt:IfTypeKeyToken>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/iftypekeytoken.html",
 		deprecated: true,
 	},
-	MTIfWebsite: {
+	ifwebsite: {
 		codeBlock: "<mt:IfWebsite></mt:IfWebsite>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ifwebsite.html",
 		version: "MT5.0",
 	},
-	MTIgnore: {
+	ignore: {
 		codeBlock: "<mt:Ignore></mt:Ignore>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/ignore.html",
 	},
-	MTImageCustomFieldDescription: {
+	imagecustomfielddescription: {
 		codeBlock: "<mt:ImageCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/imagecustomfielddescription.html",
 		version: "MT5.0",
 	},
-	MTImageCustomFieldName: {
+	imagecustomfieldname: {
 		codeBlock: "<mt:ImageCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/imagecustomfieldname.html",
 		version: "MT5.0",
 	},
-	MTImageCustomFields: {
+	imagecustomfields: {
 		codeBlock: "<mt:ImageCustomFields></mt:ImageCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/imagecustomfields.html",
 		version: "MT5.0",
 	},
-	MTImageCustomFieldValue: {
+	imagecustomfieldvalue: {
 		codeBlock: "<mt:ImageCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/imagecustomfieldvalue.html",
 		version: "MT5.0",
 	},
-	MTImageHeight: {
+	imageheight: {
 		codeBlock: "<mt:ImageHeight>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/imageheight.html",
 	},
-	MTImageURL: {
+	imageurl: {
 		codeBlock: "<mt:ImageURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/imageurl.html",
 	},
-	MTImageWidth: {
+	imagewidth: {
 		codeBlock: "<mt:ImageWidth>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/imagewidth.html",
 	},
-	MTInclude: {
+	include: {
 		codeBlock: "<mt:Include>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/include.html",
 		version: "MT4.2",
 	},
-	MTIncludeBlock: {
+	includeblock: {
 		codeBlock: "<mt:IncludeBlock></mt:IncludeBlock>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/includeblock.html",
 		version: "MT4.1",
 	},
-	MTIndexBasename: {
+	indexbasename: {
 		codeBlock: "<mt:IndexBasename>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/indexbasename.html",
 	},
-	MTIndexLink: {
+	indexlink: {
 		codeBlock: "<mt:IndexLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/indexlink.html",
 	},
-	MTIndexList: {
+	indexlist: {
 		codeBlock: "<mt:IndexList></mt:IndexList>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/indexlist.html",
 	},
-	MTIndexName: {
+	indexname: {
 		codeBlock: "<mt:IndexName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/indexname.html",
 	},
-	MTLink: {
+	link: {
 		codeBlock: "<mt:Link>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/link.html",
 	},
-	MTLoop: {
+	loop: {
 		codeBlock: "<mt:Loop></mt:Loop>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/loop.html",
 		version: "MT4.1",
 	},
-	MTMarkdownOptions: {
+	markdownoptions: {
 		codeBlock: "<mt:MarkdownOptions></mt:MarkdownOptions>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/markdownoptions.html",
 		version: "MT4",
 	},
-	MTMaxResults: {
+	maxresults: {
 		codeBlock: "<mt:MaxResults>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/maxresults.html",
 	},
-	MTMultiBlog: {
+	multiblog: {
 		codeBlock: "<mt:MultiBlog></mt:MultiBlog>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/multiblog.html",
 		version: "MT4",
 	},
-	MTMultiBlogIfLocalBlog: {
+	multiblogiflocalblog: {
 		codeBlock: "<mt:MultiBlogIfLocalBlog></mt:MultiBlogIfLocalBlog>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/multiblogiflocalblog.html",
 		version: "MT4",
 	},
-	MTMultiBlogLocalBlog: {
+	multibloglocalblog: {
 		codeBlock: "<mt:MultiBlogLocalBlog></mt:MultiBlogLocalBlog>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/multibloglocalblog.html",
 		version: "MT4",
 	},
-	MTNextLink: {
+	nextlink: {
 		codeBlock: "<mt:NextLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/nextlink.html",
 		version: "MT4.2",
 	},
-	MTNoSearch: {
+	nosearch: {
 		codeBlock: "<mt:NoSearch></mt:NoSearch>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/nosearch.html",
 	},
-	MTNoSearchResults: {
+	nosearchresults: {
 		codeBlock: "<mt:NoSearchResults></mt:NoSearchResults>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/nosearchresults.html",
 	},
-	MTNotifyScript: {
+	notifyscript: {
 		codeBlock: "<mt:NotifyScript>",
 		description: "",
 		type: "FUNCTION",
@@ -3318,1245 +3318,1245 @@ export const mtTags: IItems = {
 		deprecated: true,
 		version: "MT4.1",
 	},
-	MTOtherBlog: {
+	otherblog: {
 		codeBlock: "<mt:OtherBlog></mt:OtherBlog>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/otherblog.html",
 		version: "MT4",
 	},
-	MTOtherProfiles: {
+	otherprofiles: {
 		codeBlock: "<mt:OtherProfiles></mt:OtherProfiles>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/otherprofiles.html",
 		version: "MT4.25",
 	},
-	MTOtherProfileVar: {
+	otherprofilevar: {
 		codeBlock: "<mt:OtherProfileVar>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/otherprofilevar.html",
 		version: "MT4.25",
 	},
-	MTPageAssets: {
+	pageassets: {
 		codeBlock: "<mt:PageAssets></mt:PageAssets>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pageassets.html",
 		version: "MT4",
 	},
-	MTPageAuthorDisplayName: {
+	pageauthordisplayname: {
 		codeBlock: "<mt:PageAuthorDisplayName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pageauthordisplayname.html",
 		version: "MT4",
 	},
-	MTPageAuthorEmail: {
+	pageauthoremail: {
 		codeBlock: "<mt:PageAuthorEmail>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pageauthoremail.html",
 		version: "MT4",
 	},
-	MTPageAuthorLink: {
+	pageauthorlink: {
 		codeBlock: "<mt:PageAuthorLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pageauthorlink.html",
 		version: "MT4",
 	},
-	MTPageAuthorURL: {
+	pageauthorurl: {
 		codeBlock: "<mt:PageAuthorURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pageauthorurl.html",
 		version: "MT4",
 	},
-	MTPageBasename: {
+	pagebasename: {
 		codeBlock: "<mt:PageBasename>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagebasename.html",
 		version: "MT4",
 	},
-	MTPageBody: {
+	pagebody: {
 		codeBlock: "<mt:PageBody>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagebody.html",
 		version: "MT4",
 	},
-	MTPageCustomFieldDescription: {
+	pagecustomfielddescription: {
 		codeBlock: "<mt:PageCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagecustomfielddescription.html",
 		version: "MT4.1",
 	},
-	MTPageCustomFieldName: {
+	pagecustomfieldname: {
 		codeBlock: "<mt:PageCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagecustomfieldname.html",
 		version: "MT4.1",
 	},
-	MTPageCustomFields: {
+	pagecustomfields: {
 		codeBlock: "<mt:PageCustomFields></mt:PageCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagecustomfields.html",
 		version: "MT4.1",
 	},
-	MTPageCustomFieldValue: {
+	pagecustomfieldvalue: {
 		codeBlock: "<mt:PageCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagecustomfieldvalue.html",
 		version: "MT4.1",
 	},
-	MTPageDate: {
+	pagedate: {
 		codeBlock: "<mt:PageDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagedate.html",
 		version: "MT4",
 	},
-	MTPageExcerpt: {
+	pageexcerpt: {
 		codeBlock: "<mt:PageExcerpt>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pageexcerpt.html",
 		version: "MT4",
 	},
-	MTPageFolder: {
+	pagefolder: {
 		codeBlock: "<mt:PageFolder></mt:PageFolder>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagefolder.html",
 		version: "MT4",
 	},
-	MTPageID: {
+	pageid: {
 		codeBlock: "<mt:PageID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pageid.html",
 		version: "MT4",
 	},
-	MTPageIfTagged: {
+	pageiftagged: {
 		codeBlock: "<mt:PageIfTagged></mt:PageIfTagged>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pageiftagged.html",
 		version: "MT4",
 	},
-	MTPageKeywords: {
+	pagekeywords: {
 		codeBlock: "<mt:PageKeywords>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagekeywords.html",
 		version: "MT4",
 	},
-	MTPageModifiedAuthorDisplayName: {
+	pagemodifiedauthordisplayname: {
 		codeBlock: "<mt:PageModifiedAuthorDisplayName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagemodifiedauthordisplayname.html",
 		version: "MT7R.5301",
 	},
-	MTPageModifiedAuthorEmail: {
+	pagemodifiedauthoremail: {
 		codeBlock: "<mt:PageModifiedAuthorEmail>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagemodifiedauthoremail.html",
 		version: "MT7R.5301",
 	},
-	MTPageModifiedAuthorLink: {
+	pagemodifiedauthorlink: {
 		codeBlock: "<mt:PageModifiedAuthorLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagemodifiedauthorlink.html",
 		version: "MT7R.5301",
 	},
-	MTPageModifiedAuthorURL: {
+	pagemodifiedauthorurl: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagemodifiedauthorurl.html",
 	},
-	MTPageModifiedDate: {
+	pagemodifieddate: {
 		codeBlock: "<mt:PageModifiedDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagemodifieddate.html",
 		version: "MT4",
 	},
-	MTPageMore: {
+	pagemore: {
 		codeBlock: "<mt:PageMore>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagemore.html",
 		version: "MT4",
 	},
-	MTPageNext: {
+	pagenext: {
 		codeBlock: "<mt:PageNext></mt:PageNext>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagenext.html",
 		version: "MT4",
 	},
-	MTPagePermalink: {
+	pagepermalink: {
 		codeBlock: "<mt:PagePermalink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagepermalink.html",
 		version: "MT4",
 	},
-	MTPagePrevious: {
+	pageprevious: {
 		codeBlock: "<mt:PagePrevious></mt:PagePrevious>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pageprevious.html",
 		version: "MT4",
 	},
-	MTPagerBlock: {
+	pagerblock: {
 		codeBlock: "<mt:PagerBlock></mt:PagerBlock>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagerblock.html",
 		version: "MT4.2",
 	},
-	MTPagerLink: {
+	pagerlink: {
 		codeBlock: "<mt:PagerLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagerlink.html",
 		version: "MT4.2",
 	},
-	MTPages: {
+	pages: {
 		codeBlock: "<mt:Pages></mt:Pages>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pages.html",
 		version: "MT4",
 	},
-	MTPagesFooter: {
+	pagesfooter: {
 		codeBlock: "<mt:PagesFooter></mt:PagesFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagesfooter.html",
 		version: "MT4",
 	},
-	MTPagesHeader: {
+	pagesheader: {
 		codeBlock: "<mt:PagesHeader></mt:PagesHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagesheader.html",
 		version: "MT4",
 	},
-	MTPageTags: {
+	pagetags: {
 		codeBlock: "<mt:PageTags></mt:PageTags>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagetags.html",
 		version: "MT4",
 	},
-	MTPageTitle: {
+	pagetitle: {
 		codeBlock: "<mt:PageTitle>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pagetitle.html",
 		version: "MT4",
 	},
-	MTParentCategories: {
+	parentcategories: {
 		codeBlock: "<mt:ParentCategories></mt:ParentCategories>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/parentcategories.html",
 	},
-	MTParentCategory: {
+	parentcategory: {
 		codeBlock: "<mt:ParentCategory></mt:ParentCategory>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/parentcategory.html",
 	},
-	MTParentFolder: {
+	parentfolder: {
 		codeBlock: "<mt:ParentFolder></mt:ParentFolder>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/parentfolder.html",
 		version: "MT4",
 	},
-	MTParentFolders: {
+	parentfolders: {
 		codeBlock: "<mt:ParentFolders></mt:ParentFolders>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/parentfolders.html",
 		version: "MT4",
 	},
-	MTParentSite: {
+	parentsite: {
 		codeBlock: "<mt:ParentSite></mt:ParentSite>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/parentsite.html",
 		version: "MT7R.4609",
 	},
-	MTPasswordValidation: {
+	passwordvalidation: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/passwordvalidation.html",
 		version: "MT5.1",
 	},
-	MTPasswordValidationRule: {
+	passwordvalidationrule: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/passwordvalidationrule.html",
 		version: "MT5.1",
 	},
-	MTPingBlogName: {
+	pingblogname: {
 		codeBlock: "<mt:PingBlogName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingblogname.html",
 	},
-	MTPingDate: {
+	pingdate: {
 		codeBlock: "<mt:PingDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingdate.html",
 	},
-	MTPingEntry: {
+	pingentry: {
 		codeBlock: "<mt:PingEntry></mt:PingEntry>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingentry.html",
 		version: "MT4",
 	},
-	MTPingExcerpt: {
+	pingexcerpt: {
 		codeBlock: "<mt:PingExcerpt>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingexcerpt.html",
 	},
-	MTPingID: {
+	pingid: {
 		codeBlock: "<mt:PingID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingid.html",
 	},
-	MTPingIP: {
+	pingip: {
 		codeBlock: "<mt:PingIP>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingip.html",
 	},
-	MTPingRank: {
+	pingrank: {
 		codeBlock: "<mt:PingRank>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingrank.html",
 		version: "MT4",
 	},
-	MTPings: {
+	pings: {
 		codeBlock: "<mt:Pings></mt:Pings>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pings.html",
 	},
-	MTPingScore: {
+	pingscore: {
 		codeBlock: "<mt:PingScore>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingscore.html",
 		version: "MT4",
 	},
-	MTPingScoreAvg: {
+	pingscoreavg: {
 		codeBlock: "<mt:PingScoreAvg>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingscoreavg.html",
 		version: "MT4",
 	},
-	MTPingScoreCount: {
+	pingscorecount: {
 		codeBlock: "<mt:PingScoreCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingscorecount.html",
 		version: "MT4",
 	},
-	MTPingScoreHigh: {
+	pingscorehigh: {
 		codeBlock: "<mt:PingScoreHigh>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingscorehigh.html",
 		version: "MT4",
 	},
-	MTPingScoreLow: {
+	pingscorelow: {
 		codeBlock: "<mt:PingScoreLow>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingscorelow.html",
 		version: "MT4",
 	},
-	MTPingsFooter: {
+	pingsfooter: {
 		codeBlock: "<mt:PingsFooter></mt:PingsFooter>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingsfooter.html",
 	},
-	MTPingsHeader: {
+	pingsheader: {
 		codeBlock: "<mt:PingsHeader></mt:PingsHeader>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingsheader.html",
 	},
-	MTPingsSent: {
+	pingssent: {
 		codeBlock: "<mt:PingsSent></mt:PingsSent>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingssent.html",
 	},
-	MTPingsSentURL: {
+	pingssenturl: {
 		codeBlock: "<mt:PingsSentURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingssenturl.html",
 	},
-	MTPingTitle: {
+	pingtitle: {
 		codeBlock: "<mt:PingTitle>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingtitle.html",
 	},
-	MTPingURL: {
+	pingurl: {
 		codeBlock: "<mt:PingURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/pingurl.html",
 	},
-	MTPreviousLink: {
+	previouslink: {
 		codeBlock: "<mt:PreviousLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/previouslink.html",
 		version: "MT4.2",
 	},
-	MTProductName: {
+	productname: {
 		codeBlock: "<mt:ProductName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/productname.html",
 	},
-	MTProfileServices: {
+	profileservices: {
 		codeBlock: "<mt:ProfileServices></mt:ProfileServices>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/profileservice.html",
 		version: "MT4.25",
 	},
-	MTPublishCharset: {
+	publishcharset: {
 		codeBlock: "<mt:PublishCharset>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/publishcharset.html",
 	},
-	MTRemoteSignInLink: {
+	remotesigninlink: {
 		codeBlock: "<mt:RemoteSignInLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/remotesigninlink.html",
 		deprecated: true,
 	},
-	MTRemoteSignOutLink: {
+	remotesignoutlink: {
 		codeBlock: "<mt:RemoteSignOutLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/remotesignoutlink.html",
 		deprecated: true,
 	},
-	MTScoreDate: {
+	scoredate: {
 		codeBlock: "<mt:ScoreDate>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/mtscoredate.html",
 	},
-	MTSearchIncludeBlogs: {
+	searchincludeblogs: {
 		codeBlock: "<mt:SearchIncludeBlogs>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/searchincludeblogs.html",
 	},
-	MTSearchMaxResults: {
+	searchmaxresults: {
 		codeBlock: "<mt:SearchMaxResults>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/searchmaxresults.html",
 		version: "MT4.2",
 	},
-	MTSearchResultCount: {
+	searchresultcount: {
 		codeBlock: "<mt:SearchResultCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/searchresultcount.html",
 	},
-	MTSearchResults: {
+	searchresults: {
 		codeBlock: "<mt:SearchResults></mt:SearchResults>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/searchresults.html",
 	},
-	MTSearchResultsFooter: {
+	searchresultsfooter: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/searchresultsfooter.html",
 	},
-	MTSearchResultsHeader: {
+	searchresultsheader: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/searchresultsheader.html",
 	},
-	MTSearchScript: {
+	searchscript: {
 		codeBlock: "<mt:SearchScript>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/searchscript.html",
 		version: "MT4",
 	},
-	MTSearchString: {
+	searchstring: {
 		codeBlock: "<mt:SearchString>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/searchstring.html",
 	},
-	MTSearchTemplateBlogID: {
+	searchtemplateblogid: {
 		codeBlock: "<mt:SearchTemplateBlogID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/searchtemplateblogid.html",
 	},
-	MTSearchTemplateID: {
+	searchtemplateid: {
 		codeBlock: "<mt:SearchTemplateID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/searchtemplateid.html",
 	},
-	MTSection: {
+	section: {
 		codeBlock: "<mt:Section></mt:Section>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/section.html",
 		version: "MT4",
 	},
-	MTSetHashVar: {
+	sethashvar: {
 		codeBlock: "<mt:SetHashVar></mt:SetHashVar>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/sethashvar.html",
 		version: "MT4.1",
 	},
-	MTSetVar: {
+	setvar: {
 		codeBlock: "<mt:SetVar>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/setvar.html",
 		version: "MT4.1",
 	},
-	MTSetVarBlock: {
+	setvarblock: {
 		codeBlock: "<mt:SetVarBlock></mt:SetVarBlock>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/setvarblock.html",
 		version: "MT4.1",
 	},
-	MTSetVars: {
+	setvars: {
 		codeBlock: "<mt:SetVars></mt:SetVars>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/setvars.html",
 		version: "MT4.1",
 	},
-	MTSetVarTemplate: {
+	setvartemplate: {
 		codeBlock: "<mt:SetVarTemplate></mt:SetVarTemplate>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/setvartemplate.html",
 		version: "MT4",
 	},
-	MTSigninLink: {
+	signinlink: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/signinlink.html",
 	},
-	MTSignOnURL: {
+	signonurl: {
 		codeBlock: "<mt:SignOnURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/signonurl.html",
 		deprecated: true,
 	},
-	MTSignOutLink: {
+	signoutlink: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/signoutlink.html",
 	},
-	MTSiteArchiveURL: {
+	sitearchiveurl: {
 		codeBlock: "<mt:SiteArchiveURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitearchiveurl.html",
 		version: "MT7R.4207",
 	},
-	MTSiteCategoryCount: {
+	sitecategorycount: {
 		codeBlock: "<mt:SiteCategoryCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitecategorycount.html",
 		version: "MT7R.4207",
 	},
-	MTSiteCCLicenseImage: {
+	sitecclicenseimage: {
 		codeBlock: "<mt:SiteCCLicenseImage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitecclicenseimage.html",
 		version: "MT7R.4207",
 	},
-	MTSiteCCLicenseURL: {
+	sitecclicenseurl: {
 		codeBlock: "<mt:SiteCCLicenseURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitecclicenseurl.html",
 		version: "MT7R.4207",
 	},
-	MTSiteCommentCount: {
+	sitecommentcount: {
 		codeBlock: "<mt:SiteCommentCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitecommentcount.html",
 		version: "MT7R.4207",
 	},
-	MTSiteContentCount: {
+	sitecontentcount: {
 		codeBlock: "<mt:SiteContentCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitecontentcount.html",
 		version: "MT7R.4207",
 	},
-	MTSiteDateLanguage: {
+	sitedatelanguage: {
 		codeBlock: "<mt:SiteDateLanguage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitedatelanguage.html",
 		version: "MT7R.4207",
 	},
-	MTSiteDescription: {
+	sitedescription: {
 		codeBlock: "<mt:SiteDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitedescription.html",
 		version: "MT7R.4207",
 	},
-	MTSiteEntryCount: {
+	siteentrycount: {
 		codeBlock: "<mt:SiteEntryCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/siteentrycount.html",
 		version: "MT7R.4207",
 	},
-	MTSiteFileExtension: {
+	sitefileextension: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitefileextension.html",
 	},
-	MTSiteHasChildSite: {
+	sitehaschildsite: {
 		codeBlock: "<mt:SiteHasChildSite></mt:SiteHasChildSite>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitehaschildsite.html",
 		version: "MT7R.4207",
 	},
-	MTSiteHost: {
+	sitehost: {
 		codeBlock: "<mt:SiteHost>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitehost.html",
 		version: "MT7R.4207",
 	},
-	MTSiteID: {
+	siteid: {
 		codeBlock: "<mt:SiteID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/siteid.html",
 		version: "MT7R.4207",
 	},
-	MTSiteIfCommentsOpen: {
+	siteifcommentsopen: {
 		codeBlock: "<mt:SiteIfCommentsOpen></mt:SiteIfCommentsOpen>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/siteifcommentsopen.html",
 		version: "MT7R.4207",
 	},
-	MTSiteLanguage: {
+	sitelanguage: {
 		codeBlock: "<mt:SiteLanguage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitelanguage.html",
 		version: "MT7R.4207",
 	},
-	MTSiteName: {
+	sitename: {
 		codeBlock: "<mt:SiteName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitename.html",
 		version: "MT7R.4207",
 	},
-	MTSitePageCount: {
+	sitepagecount: {
 		codeBlock: "<mt:SitePageCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitepagecount.html",
 		version: "MT7R.4207",
 	},
-	MTSiteParentSite: {
+	siteparentsite: {
 		codeBlock: "<mt:SiteParentSite>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/siteparentsite.html",
 		version: "MT7R.4207",
 	},
-	MTSitePath: {
+	sitepath: {
 		codeBlock: "<mt:SitePath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitepath.html",
 		version: "MT7R.4207",
 	},
-	MTSitePingCount: {
+	sitepingcount: {
 		codeBlock: "<mt:SitePingCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitepingcount.html",
 		version: "MT7R.4207",
 	},
-	MTSiteRelativeURL: {
+	siterelativeurl: {
 		codeBlock: "<mt:SiteRelativeURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/siterelativeurl.html",
 		version: "MT7R.4207",
 	},
-	MTSites: {
+	sites: {
 		codeBlock: "<mt:Sites></mt:Sites>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/sites.html",
 		version: "MT7R.4207",
 	},
-	MTSitesIfLocalSite: {
+	sitesiflocalsite: {
 		codeBlock: "<mt:SitesIfLocalSite></mt:SitesIfLocalSite>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitesiflocalsite.html",
 		version: "MT7R.4207",
 	},
-	MTSitesLocalSite: {
+	siteslocalsite: {
 		codeBlock: "<mt:SitesLocalSite></mt:SitesLocalSite>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/siteslocalsite.html",
 		version: "MT7R.4207",
 	},
-	MTSiteThemeID: {
+	sitethemeid: {
 		codeBlock: "<mt:SiteThemeID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitethemeid.html",
 		version: "MT7R.4207",
 	},
-	MTSiteTimezone: {
+	sitetimezone: {
 		codeBlock: "<mt:SiteTimezone>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/sitetimezone.html",
 		version: "MT7R.4207",
 	},
-	MTSiteURL: {
+	siteurl: {
 		codeBlock: "<mt:SiteURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/siteurl.html",
 		version: "MT7R.4207",
 	},
-	MTSmartyPantsVersion: {
+	smartypantsversion: {
 		codeBlock: "<mt:SmartyPantsVersion>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/smartypantsversion.html",
 		version: "MT4",
 	},
-	MTStaticFilePath: {
+	staticfilepath: {
 		codeBlock: "<mt:StaticFilePath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/staticfilepath.html",
 		version: "MT4",
 	},
-	MTStaticWebPath: {
+	staticwebpath: {
 		codeBlock: "<mt:StaticWebPath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/staticwebpath.html",
 		version: "MT4",
 	},
-	MTStatsSnippet: {
+	statssnippet: {
 		codeBlock: "<mt:StatsSnippet>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/statssnippet.html",
 		version: "MT6.0",
 	},
-	MTSubCategories: {
+	subcategories: {
 		codeBlock: "<mt:SubCategories></mt:SubCategories>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/subcategories.html",
 	},
-	MTSubCategoryPath: {
+	subcategorypath: {
 		codeBlock: "<mt:SubCategoryPath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/subcategorypath.html",
 		version: "MT4",
 	},
-	MTSubCatIsFirst: {
+	subcatisfirst: {
 		codeBlock: "<mt:SubCatIsFirst></mt:SubCatIsFirst>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/subcatisfirst.html",
 		version: "MT4",
 	},
-	MTSubCatIsLast: {
+	subcatislast: {
 		codeBlock: "<mt:SubCatIsLast></mt:SubCatIsLast>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/subcatislast.html",
 		version: "MT4",
 	},
-	MTSubCatsRecurse: {
+	subcatsrecurse: {
 		codeBlock: "<mt:SubCatsRecurse>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/subcatsrecurse.html",
 	},
-	MTSubFolderRecurse: {
+	subfolderrecurse: {
 		codeBlock: "<mt:SubFolderRecurse>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/subfolderrecurse.html",
 		version: "MT4",
 	},
-	MTSubFolders: {
+	subfolders: {
 		codeBlock: "<mt:SubFolders></mt:SubFolders>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/subfolders.html",
 		version: "MT4",
 	},
-	MTSupportDirectoryURL: {
+	supportdirectoryurl: {
 		codeBlock: "<mt:SupportDirectoryURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/supportdirectoryurl.html",
 		version: "MT6.0",
 	},
-	MTTagCount: {
+	tagcount: {
 		codeBlock: "<mt:TagCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/tagcount.html",
 	},
-	MTTagID: {
+	tagid: {
 		codeBlock: "<mt:TagID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/tagid.html",
 	},
-	MTTagLabel: {
+	taglabel: {
 		codeBlock: "<mt:TagLabel>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/taglabel.html",
 	},
-	MTTagName: {
+	tagname: {
 		codeBlock: "<mt:TagName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/tagname.html",
 	},
-	MTTagRank: {
+	tagrank: {
 		codeBlock: "<mt:TagRank>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/tagrank.html",
 	},
-	MTTags: {
+	tags: {
 		codeBlock: "<mt:Tags></mt:Tags>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/tags.html",
 	},
-	MTTagSearchLink: {
+	tagsearchlink: {
 		codeBlock: "<mt:TagSearchLink>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/tagsearchlink.html",
 	},
-	MTTemplateCreatedOn: {
+	templatecreatedon: {
 		codeBlock: "<mt:TemplateCreatedOn>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/templatecreatedon.html",
 	},
-	MTTemplateCustomFieldDescription: {
+	templatecustomfielddescription: {
 		codeBlock: "<mt:TemplateCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/templatecustomfielddescription.html",
 		version: "MT5.0",
 	},
-	MTTemplateCustomFieldName: {
+	templatecustomfieldname: {
 		codeBlock: "<mt:TemplateCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/templatecustomfieldname.html",
 		version: "MT5.0",
 	},
-	MTTemplateCustomFields: {
+	templatecustomfields: {
 		codeBlock: "<mt:TemplateCustomFields></mt:TemplateCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/templatecustomfields.html",
 		version: "MT5.0",
 	},
-	MTTemplateCustomFieldValue: {
+	templatecustomfieldvalue: {
 		codeBlock: "<mt:TemplateCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/templatecustomfieldvalue.html",
 		version: "MT5.0",
 	},
-	MTTemplateNote: {
+	templatenote: {
 		codeBlock: "<mt:TemplateNote>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/templatenote.html",
 	},
-	MTTextile: {
+	textile: {
 		codeBlock: "<mt:Textile></mt:Textile>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/textile.html",
 	},
-	MTTextileHeadOffset: {
+	textileheadoffset: {
 		codeBlock: "<mt:TextileHeadOffset>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/textileheadoffset.html",
 	},
-	MTTextileOptions: {
+	textileoptions: {
 		codeBlock: "<mt:TextileOptions>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/textileoptions.html",
 	},
-	MTTopLevelCategories: {
+	toplevelcategories: {
 		codeBlock: "<mt:TopLevelCategories></mt:TopLevelCategories>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/toplevelcategories.html",
 	},
-	MTTopLevelFolder: {
+	toplevelfolder: {
 		codeBlock: "<mt:TopLevelFolder></mt:TopLevelFolder>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/toplevelfolder.html",
 	},
-	MTTopLevelFolders: {
+	toplevelfolders: {
 		codeBlock: "<mt:TopLevelFolders></mt:TopLevelFolders>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/toplevelfolders.html",
 	},
-	MTTopLevelParent: {
+	toplevelparent: {
 		codeBlock: "<mt:TopLevelParent></mt:TopLevelParent>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/toplevelparent.html",
 	},
-	MTTotalPages: {
+	totalpages: {
 		codeBlock: "<mt:TotalPages>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/totalpages.html",
 		version: "MT4.2",
 	},
-	MTTrackbackScript: {
+	trackbackscript: {
 		codeBlock: "<mt:TrackbackScript>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/trackbackscript.html",
 	},
-	MTTypeKeyToken: {
+	typekeytoken: {
 		codeBlock: "<mt:TypeKeyToken>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/typekeytoken.html",
 		deprecated: true,
 	},
-	MTUnless: {
+	unless: {
 		codeBlock: "<mt:Unless></mt:Unless>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/unless.html",
 		version: "MT4.1",
 	},
-	MTUserSessionState: {
+	usersessionstate: {
 		codeBlock: "",
 		description: "",
 		type: "",
 		url: "https://movabletype.jp/documentation/appendices/tags/usersessionstate.html",
 	},
-	MTVar: {
+	var: {
 		codeBlock: "<mt:Var>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/var.html",
 		version: "MT4.1",
 	},
-	MTVersion: {
+	version: {
 		codeBlock: "<mt:Version>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/version.html",
 	},
-	MTVideoCustomFieldDescription: {
+	videocustomfielddescription: {
 		codeBlock: "<mt:VideoCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/videocustomfielddescription.html",
 		version: "MT5.0",
 	},
-	MTVideoCustomFieldName: {
+	videocustomfieldname: {
 		codeBlock: "<mt:VideoCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/videocustomfieldname.html",
 		version: "MT5.0",
 	},
-	MTVideoCustomFields: {
+	videocustomfields: {
 		codeBlock: "<mt:VideoCustomFields></mt:VideoCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/videocustomfields.html",
 		version: "MT5.0",
 	},
-	MTVideoCustomFieldValue: {
+	videocustomfieldvalue: {
 		codeBlock: "<mt:VideoCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/videocustomfieldvalue.html",
 		version: "MT5.0",
 	},
-	MTWebsiteCCLicenseImage: {
+	websitecclicenseimage: {
 		codeBlock: "<mt:WebsiteCCLicenseImage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitecclicenseimage.html",
 		version: "MT5.0",
 	},
-	MTWebsiteCCLicenseURL: {
+	websitecclicenseurl: {
 		codeBlock: "<mt:WebsiteCCLicenseURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitecclicenseurl.html",
 		version: "MT5.0",
 	},
-	MTWebsiteCommentCount: {
+	websitecommentcount: {
 		codeBlock: "<mt:WebsiteCommentCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitecommentcount.html",
 		version: "MT5.0",
 	},
-	MTWebsiteCustomFieldDescription: {
+	websitecustomfielddescription: {
 		codeBlock: "<mt:WebsiteCustomFieldDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitecustomfielddescription.html",
 		version: "MT5.0",
 	},
-	MTWebsiteCustomFieldName: {
+	websitecustomfieldname: {
 		codeBlock: "<mt:WebsiteCustomFieldName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitecustomfieldname.html",
 		version: "MT5.0",
 	},
-	MTWebsiteCustomFields: {
+	websitecustomfields: {
 		codeBlock: "<mt:WebsiteCustomFields></mt:WebsiteCustomFields>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitecustomfields.html",
 		version: "MT5.0",
 	},
-	MTWebsiteCustomFieldValue: {
+	websitecustomfieldvalue: {
 		codeBlock: "<mt:WebsiteCustomFieldValue>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitecustomfieldvalue.html",
 		version: "MT5.0",
 	},
-	MTWebsiteDateLanguage: {
+	websitedatelanguage: {
 		codeBlock: "<mt:WebsiteDateLanguage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitedatelanguage.html",
 		version: "MT5.2",
 	},
-	MTWebsiteDescription: {
+	websitedescription: {
 		codeBlock: "<mt:WebsiteDescription>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitedescription.html",
 		version: "MT5.0",
 	},
-	MTWebsiteEntryCount: {
+	websiteentrycount: {
 		codeBlock: "<mt:WebsiteEntryCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websiteentrycount.html",
 		version: "MT6.0",
 	},
-	MTWebsiteFileExtension: {
+	websitefileextension: {
 		codeBlock: "<mt:WebsiteFileExtension>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitefileextension.html",
 		version: "MT5.0",
 	},
-	MTWebsiteHasBlog: {
+	websitehasblog: {
 		codeBlock: "<mt:WebsiteHasBlog></mt:WebsiteHasBlog>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitehasblog.html",
 		version: "MT5.0",
 	},
-	MTWebsiteHost: {
+	websitehost: {
 		codeBlock: "<mt:WebsiteHost>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitehost.html",
 		version: "MT5.0",
 	},
-	MTWebsiteID: {
+	websiteid: {
 		codeBlock: "<mt:WebsiteID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websiteid.html",
 		version: "MT5.0",
 	},
-	MTWebsiteIfCCLicense: {
+	websiteifcclicense: {
 		codeBlock: "<mt:WebsiteIfCCLicense></mt:WebsiteIfCCLicense>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/websiteifcclicense.html",
 		version: "MT5.0",
 	},
-	MTWebsiteIfCommentsOpen: {
+	websiteifcommentsopen: {
 		codeBlock: "<mt:WebsiteIfCommentsOpen></mt:WebsiteIfCommentsOpen>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/websiteifcommentsopen.html",
 		version: "MT5.0",
 	},
-	MTWebsiteLanguage: {
+	websitelanguage: {
 		codeBlock: "<mt:WebsiteLanguage>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitelanguage.html",
 		version: "MT5.0",
 	},
-	MTWebsiteName: {
+	websitename: {
 		codeBlock: "<mt:WebsiteName>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitename.html",
 		version: "MT5.0",
 	},
-	MTWebsitePageCount: {
+	websitepagecount: {
 		codeBlock: "<mt:WebsitePageCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitepagecount.html",
 		version: "MT5.0",
 	},
-	MTWebsitePath: {
+	websitepath: {
 		codeBlock: "<mt:WebsitePath>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitepath.html",
 		version: "MT5.0",
 	},
-	MTWebsitePingCount: {
+	websitepingcount: {
 		codeBlock: "<mt:WebsitePingCount>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitepingcount.html",
 		version: "MT5.0",
 	},
-	MTWebsiteRelativeURL: {
+	websiterelativeurl: {
 		codeBlock: "<mt:WebsiteRelativeURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websiterelativeurl.html",
 		version: "MT5.0",
 	},
-	MTWebsites: {
+	websites: {
 		codeBlock: "<mt:Websites></mt:Websites>",
 		description: "",
 		type: "BLOCK",
 		url: "https://movabletype.jp/documentation/appendices/tags/websites.html",
 		version: "MT5.0",
 	},
-	MTWebsiteThemeID: {
+	websitethemeid: {
 		codeBlock: "<mt:WebsiteThemeID>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitethemeid.html",
 		version: "MT5.0",
 	},
-	MTWebsiteTimezone: {
+	websitetimezone: {
 		codeBlock: "<mt:WebsiteTimezone>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websitetimezone.html",
 		version: "MT5.0",
 	},
-	MTWebsiteURL: {
+	websiteurl: {
 		codeBlock: "<mt:WebsiteURL>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/websiteurl.html",
 		version: "MT5.0",
 	},
-	MTWidgetManager: {
+	widgetmanager: {
 		codeBlock: "<mt:WidgetManager>",
 		description: "",
 		type: "FUNCTION",
@@ -4564,14 +4564,14 @@ export const mtTags: IItems = {
 		deprecated: true,
 		version: "MT4",
 	},
-	MTWidgetSet: {
+	widgetset: {
 		codeBlock: "<mt:WidgetSet>",
 		description: "",
 		type: "FUNCTION",
 		url: "https://movabletype.jp/documentation/appendices/tags/widgetset.html",
 		version: "MT4",
 	},
-	MTXMLRPCScript: {
+	xmlrpcscript: {
 		codeBlock: "<mt:XMLRPCScript>",
 		description: "",
 		type: "FUNCTION",
