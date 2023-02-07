@@ -1,16 +1,16 @@
 import { MarkdownString } from "vscode";
 
-export interface IItem {
+export type TItem ={
 	codeBlock: string;
 	description?: string;
 	type?: string;
 	url?: string;
 	deprecated?: Boolean;
 	version?: string;
-}
-export interface IItems {
-	[name: string]: IItem;
-}
+};
+export type TItems= {
+	[name: string]: TItem;
+};
 
 export enum CmsType {
 	mt = "Movable Type",
@@ -24,7 +24,7 @@ export enum CmsType {
  * @param entry
  * @returns
  */
-export function makeHoverMessage(entry: IItem): MarkdownString {
+export function makeHoverMessage(entry: TItem): MarkdownString {
 	let mdMessage = new MarkdownString();
 	mdMessage.appendCodeblock(entry.codeBlock);
 
