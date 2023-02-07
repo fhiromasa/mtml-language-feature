@@ -1,5 +1,5 @@
 import { mtTags, mtModifiers } from "./mtHoverItems";
-import { makeHoverMessage, CmsType } from "./utils";
+import { makeHoverMessage, EnumCmsType } from "./utils";
 import {
 	HoverProvider,
 	Hover,
@@ -25,7 +25,9 @@ export default class MTMLHoverProvider implements HoverProvider {
 			console.log("settings of mtml.suggest.basic is false");
 			return undefined;
 		}
-		const cmsType = workspace.getConfiguration("mtml").get<string>("cms.type");
+		const cmsType =
+			workspace.getConfiguration("mtml").get<string>("cms.type") ||
+			EnumCmsType.mt;
 		console.log("cmsType = " + cmsType);
 
 		// ポインターの居場所に文字列があるかどうか確認する。なければリターン
@@ -42,7 +44,7 @@ export default class MTMLHoverProvider implements HoverProvider {
 		let entry;
 		switch (cmsType) {
 			default:
-				entry = mtTags[name] || mtModifiers[name] || mtTags["app"+name];
+				entry = mtTags[name] || mtModifiers[name] || mtTags["app" + name];
 				break;
 		}
 
@@ -51,6 +53,6 @@ export default class MTMLHoverProvider implements HoverProvider {
 			return undefined;
 		}
 
-		return new Hover(makeHoverMessage(entry));
+		return new Hover(makeHoverMessage(entry, cmsType));
 	}
 }

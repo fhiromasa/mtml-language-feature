@@ -1,6 +1,6 @@
 import { MarkdownString } from "vscode";
 
-export type TItem ={
+export type TItem = {
 	codeBlock: string;
 	description?: string;
 	type?: string;
@@ -8,11 +8,11 @@ export type TItem ={
 	deprecated?: Boolean;
 	version?: string;
 };
-export type TItems= {
+export type TItems = {
 	[name: string]: TItem;
 };
 
-export enum CmsType {
+export enum EnumCmsType {
 	mt = "Movable Type",
 	net = "Movable Type.net",
 	pc = "PowerCMS",
@@ -24,13 +24,18 @@ export enum CmsType {
  * @param entry
  * @returns
  */
-export function makeHoverMessage(entry: TItem): MarkdownString {
+export function makeHoverMessage(
+	entry: TItem,
+	cmsType: string
+): MarkdownString {
 	let mdMessage = new MarkdownString();
 	mdMessage.appendCodeblock(entry.codeBlock);
 
 	if (entry.deprecated) {
-		mdMessage.isTrusted=true;
-		mdMessage.appendMarkdown(`# <span style="color:#8f2107;">This item is deprecated!!</span>\n\n`);
+		mdMessage.isTrusted = true;
+		mdMessage.appendMarkdown(
+			`# <span style="color:#8f2107;">This item is deprecated!!</span>\n\n`
+		);
 	}
 
 	if (entry.description && entry.description !== "") {
@@ -43,7 +48,7 @@ export function makeHoverMessage(entry: TItem): MarkdownString {
 		mdMessage.appendMarkdown(`version : ${entry.version}\n\n`);
 	}
 	if (entry.url && entry.url !== "") {
-		mdMessage.appendMarkdown(`[MovableType.jp Reference](${entry.url})`);
+		mdMessage.appendMarkdown(`[${cmsType} Reference](${entry.url})`);
 	}
 	return mdMessage;
 }
