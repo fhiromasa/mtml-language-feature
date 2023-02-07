@@ -29,7 +29,8 @@ export function makeHoverMessage(entry: IItem): MarkdownString {
 	mdMessage.appendCodeblock(entry.codeBlock);
 
 	if (entry.deprecated) {
-		mdMessage.appendMarkdown(`# This item is deprecated!!\n\n`);
+		mdMessage.isTrusted=true;
+		mdMessage.appendMarkdown(`# <span style="color:#8f2107;">This item is deprecated!!</span>\n\n`);
 	}
 
 	if (entry.description && entry.description !== "") {
