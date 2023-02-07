@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { IItems } from "./Utils";
+import { IItems } from "./utils";
 
 export const mtTags: IItems = {
 	authorhascontent: {

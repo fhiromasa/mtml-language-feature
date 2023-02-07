@@ -1,5 +1,5 @@
 import { mtTags, mtModifiers } from "./mtHoverItems";
-import { makeHoverMessage, CmsType } from "./Utils";
+import { makeHoverMessage, CmsType } from "./utils";
 import {
 	HoverProvider,
 	Hover,
