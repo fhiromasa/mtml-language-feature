@@ -19,14 +19,13 @@ export default class MTMLHoverProvider implements HoverProvider {
 		console.log("start provideHover()");
 
 		// 設定を使うのならここで読んで設定処理
-		const CMS_NAME =
-			workspace.getConfiguration("mtml").get<string>("cms.name") ||
-			EnumCmsName.mt;
+		const CMS_NAME = workspace
+			.getConfiguration("mtml")
+			.get<string>("cms.name", EnumCmsName.mt);
 		console.log(`now using ${CMS_NAME}`);
 
 		// ポインターの居場所に文字列があるかどうか確認する。なければリターン
-		// この時取得可能文字列はcamelCase, PascalCase, snake_case, kebab-caseと数字
-		const WORD_RANGE = document.getWordRangeAtPosition(position);
+		const WORD_RANGE = document.getWordRangeAtPosition(position, /\w+(:\w+)?/);
 		if (!WORD_RANGE) {
 			console.log("there are no words");
 			return undefined;
@@ -34,16 +33,16 @@ export default class MTMLHoverProvider implements HoverProvider {
 
 		const RAW_NAME = document.getText(WORD_RANGE);
 		const LOWER_NAME = RAW_NAME.toLowerCase();
-		const NAME = LOWER_NAME.replace(/^(mt)/, "");
+		const NAME = LOWER_NAME.replace(/^(mt)/, "").replace(/:/, "");
 		let entry;
 		switch (CMS_NAME) {
 			default:
-				entry = mtTags[NAME] || mtModifiers[NAME] || mtTags["app" + NAME];
+				entry = mtTags[NAME] || mtModifiers[NAME];
 				break;
 		}
 
 		if (!entry) {
-			console.log(`${NAME} is not found.`);
+			console.log(`${RAW_NAME} is not found.`);
 			return undefined;
 		}
 
@@ -52,8 +51,8 @@ export default class MTMLHoverProvider implements HoverProvider {
 
 	/**
 	 * Return vscode.MarkdownString from TItem
-	 * @param entry
-	 * @param cmsName Must be defined in EnumCmsName
+	 * @param entry - From *HoverItems.ts
+	 * @param cmsName - Must be defined in EnumCmsName
 	 * @returns
 	 */
 	protected makeHoverMessage(entry: TItem, cmsName: string): MarkdownString {
