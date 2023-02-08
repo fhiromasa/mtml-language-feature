@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { IItems } from "./Utils";
+import { TItems } from "./utils";
 
-export const mtTags: IItems = {
+export const mtTags: TItems = {
 	authorhascontent: {
 		codeBlock: "<mt:AuthorHasContent></mt:AuthorHasContent>",
 		description: "",
@@ -4579,7 +4579,7 @@ export const mtTags: IItems = {
 	},
 };
 
-export const mtModifiers: IItems = {
+export const mtModifiers: TItems = {
 	nl2br: {
 		codeBlock: `<mt:Tag nl2br="1">`,
 		description:
