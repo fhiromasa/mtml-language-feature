@@ -26,12 +26,12 @@
 			"type": "",
 			"order": 20,
 			"properties": {
-				"mtml.suggest.basic": {
+				"mtml.hover.enable": {
 					"type": "boolean",
 					"default": true,
-					"description": ""
+					"description": "Do you want a hover feature? default true.\nRequires reload after change"
 				},
-				"mtml.cms.type": {
+				"mtml.cms.name": {
 					"type": "string",
 					"enum": [
 						"Movable Type",
@@ -40,7 +40,7 @@
 						"PowerCMS X"
 					],
 					"default": "Movable Type",
-					"description": ""
+					"description": "What is your CMS' name?"
 				}
 			}
 		}
