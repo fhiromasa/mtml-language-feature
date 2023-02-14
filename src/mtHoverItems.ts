@@ -4580,9 +4580,349 @@ export const mtTags: TItems = {
 };
 
 export const mtModifiers: TItems = {
+	capitalize: {
+		codeBlock: '<mt:Tag capitalize="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれる単語の最初の文字を大文字に変更し、残りの文字を小文字に変換します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/capitalize.html",
+	},
+	cat: {
+		codeBlock: '<mt:Tag cat="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値の最後に、指定された値を追加します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/cat.html",
+	},
+	count_characters: {
+		codeBlock: '<mt:Tag count_characters="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれる文字数 (空白を含む) をファンクションタグの値の代わりに出力します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/count_characters.html",
+	},
+	count_paragraphs: {
+		codeBlock: '<mt:Tag count_paragraphs="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれる行数 (空白行を含まない) をファンクションタグの値の代わりに出力します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/count_paragraphs.html",
+	},
+	count_words: {
+		codeBlock: '<mt:Tag count_words="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれる単語の数をファンクションタグの値の代わりに出力します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/count_words.html",
+	},
+	decode_html: {
+		codeBlock: '<mt:Tag decode_html="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれるすべての HTML エンティティをデコードします。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/decode_html.html",
+	},
+	decode_xml: {
+		codeBlock: '<mt:Tag decode_xml="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれるすべての XML エンティティをデコードします。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/decode_xml.html",
+	},
+	dirify: {
+		codeBlock: '<mt:Tag dirify="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値をファイル名や検索用に適したものに変換します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/dirify.html",
+	},
+	encode_html: {
+		codeBlock: '<mt:Tag encode_html="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれる HTML をエスケープします。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/encode_html.html",
+	},
+	encode_js: {
+		codeBlock: '<mt:Tag encode_js="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値を JavaScript の文字列として利用できるように適切にエスケープ処理をおこないます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/encode_js.html",
+	},
+	encode_json: {
+		codeBlock: '<mt:Tag encode_json="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値を JSON として扱えるようにエスケープします。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/encode_json.html",
+		version: "MT6.2",
+	},
+	encode_php: {
+		codeBlock: '<mt:Tag encode_php="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値を PHP コード内で利用できるように適切にエスケープ処理をおこないます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/encode_php.html",
+	},
+	encode_sha1: {
+		codeBlock: '<mt:Tag encode_sha1="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値を sha1 16進数に変換して出力します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/encode_sha1.html",
+	},
+	encode_url: {
+		codeBlock: '<mt:Tag encode_url="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値を URL での利用に合わせたフォーマットにエンコードします。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/encode_url.html",
+	},
+	encode_xml: {
+		codeBlock: '<mt:Tag encode_xml="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値を XML フォーマットに適した形式にエンコードします。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/encode_xml.html",
+	},
+	escape: {
+		codeBlock: '<mt:Tag escape="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値を、指定した値に応じて、エンコードします。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/escape.html",
+	},
+	filters: {
+		codeBlock: '<mt:Tag filters="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値に対して、テキストフォーマットを適用します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/filters.html",
+	},
+	indent: {
+		codeBlock: '<mt:Tag indent="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値の行頭に、モディファイアで指定した数の半角スペースを挿入します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/indent.html",
+	},
+	lower_case: {
+		codeBlock: '<mt:Tag lower_case="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値を小文字 (abc...) に変換します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/lower_case.html",
+	},
+	ltrim: {
+		codeBlock: '<mt:Tag ltrim="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値の先頭に含まれる空白文字を削除します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/ltrim.html",
+	},
+	mteval: {
+		codeBlock: '<mt:Tag mteval="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれるテンプレートタグを実行します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/mteval.html",
+		version: "MT4.2",
+	},
 	nl2br: {
-		codeBlock: `<mt:Tag nl2br="1">`,
+		codeBlock: '<mt:Tag nl2br="" >',
+		type: "global",
 		description:
 			"モディファイアを付与したファンクションタグの値に含まれる改行を br 要素に置き換えます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/nl2br.html",
+	},
+	nofollowfy: {
+		codeBlock: '<mt:Tag nofollowfy="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれる anchor 要素に値が nofollow の rel 属性を挿入します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/nofollowfy.html",
+	},
+	numify: {
+		codeBlock: '<mt:Tag numify="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれる数字を3桁ごとにカンマで区切ります",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/numify.html",
+		version: "MT4.2",
+	},
+	regex_replace: {
+		codeBlock: '<mt:Tag regex_replace="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値に対して、正規表現を利用して検索文字列を置換文字列で置き換えます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/regex_replace.html",
+	},
+	remove_html: {
+		codeBlock: '<mt:Tag remove_html="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれるすべての HTML タグを除去します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/remove_html.html",
+	},
+	replace: {
+		codeBlock: '<mt:Tag replace="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値に対して、検索文字列を置換文字列で置き換えます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/replace.html",
+	},
+	rtrim: {
+		codeBlock: '<mt:Tag rtrim="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値の最後に含まれる空白文字を削除します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/rtrim.html",
+	},
+	sanitize: {
+		codeBlock: '<mt:Tag sanitize="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値に対して、HTML の除去フィルターを適用します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/sanitize.html",
+	},
+	setvar: {
+		codeBlock: '<mt:Tag setvar="" >',
+		type: "global",
+		description:
+			"このモディファイアを設定したブロックタグまたはファンクションタグは結果が出力されず、setvar で指定された名前の変数にその結果が保存されます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/setvar.html",
+		version: "MT4.1",
+	},
+	smarty_pants: {
+		codeBlock: '<mt:Tag smarty_pants="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値に含まれるダッシュ、引用符、ピリオドを変換します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/smarty_pants.html",
+		version: "MT4",
+	},
+	smart_dashes: {
+		codeBlock: '<mt:Tag smart_dashes="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値に含まれるダッシュを変換します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/smart_dashes.html",
+		version: "MT4",
+	},
+	smart_ellipses: {
+		codeBlock: '<mt:Tag smart_ellipses="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれる3度続けたピリオドを省略記号に対応した数値文字参照に変換します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/smart_ellipses.html",
+		version: "MT4",
+	},
+	smart_quotes: {
+		codeBlock: '<mt:Tag smart_quotes="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値に含まれる引用符を変換します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/smart_quotes.html",
+		version: "MT4",
+	},
+	space_pad: {
+		codeBlock: '<mt:Tag space_pad="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値の文字数が space_pad で指定された値を下回る場合、先頭から余白を空白文字で埋めます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/space_pad.html",
+	},
+	spacify: {
+		codeBlock: '<mt:Tag spacify="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値について、一文字ずつの間にモディファイアで指定した文字を挿入します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/spacify.html",
+	},
+	spam_protect: {
+		codeBlock: '<mt:Tag spam_protect="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値に含まれる一部の記号を数値文字参照に変換します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/spam_protect.html",
+	},
+	sprintf: {
+		codeBlock: '<mt:Tag sprintf="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値を printf 記法のフォーマットで整形します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/sprintf.html",
+	},
+	string_format: {
+		codeBlock: '<mt:Tag string_format="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値を printf 記法のフォーマットで整形します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/string_format.html",
+	},
+	strip: {
+		codeBlock: '<mt:Tag strip="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値に含まれる、1つ以上の連続する半角空白文字をモディファイアで指定した内容に置き換えます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/strip.html",
+	},
+	strip_linefeeds: {
+		codeBlock: '<mt:Tag strip_linefeeds="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値から改行コードを除きます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/strip_linefeeds.html",
+	},
+	strip_tags: {
+		codeBlock: '<mt:Tag strip_tags="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値から、HTML タグを取り除きます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/strip_tags.html",
+	},
+	trim: {
+		codeBlock: '<mt:Tag trim="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値の先頭と最後に含まれる空白文字を削除します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/trim.html",
+	},
+	trim_to: {
+		codeBlock: '<mt:Tag trim_to="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値の先頭から trim_to で指定した文字数の文字を取り出します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/trim_to.html",
+	},
+	upper_case: {
+		codeBlock: '<mt:Tag upper_case="" >',
+		type: "global",
+		description:
+			"1 を指定すると、モディファイアを付与したファンクションタグの値を大文字 (ABC...) に変換します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/upper_case.html",
+	},
+	wrap_text: {
+		codeBlock: '<mt:Tag wrap_text="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値を、wrap_text で指定したバイト数で改行して出力します。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/wrap_text.html",
+		version: "MT4.1",
+	},
+	zero_pad: {
+		codeBlock: '<mt:Tag zero_pad="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値の文字数が zero_pad で指定された値を下回る場合、先頭から余白を 0 で埋めます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/zero_pad.html",
+	},
+	_default: {
+		codeBlock: '<mt:Tag _default="" >',
+		type: "global",
+		description:
+			"モディファイアを付与したファンクションタグの値が空になる場合に、代わりに出力する値を指定できます。",
+		url: "https://www.movabletype.jp/documentation/appendices/modifiers/default.html",
 	},
 };
