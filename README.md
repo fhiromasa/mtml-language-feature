@@ -18,7 +18,7 @@ For example:
 
 This extension contributes the following settings:
 
-- `mtml.suggest.basic`: true: hover feature enable false: disable
+- `mtml.hover.enable`: hover feature true: enable false: disable
 - `mtml.cms.type`: set to `cmsType` to hover item toggle.
   - `Movable Type`
   - `Movable Type.net`
