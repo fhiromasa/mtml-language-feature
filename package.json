@@ -45,6 +45,9 @@
 			}
 		}
 	},
+	"extensionDependencies": [
+		"fhiromasa.mtml-language-provider"
+	],
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
