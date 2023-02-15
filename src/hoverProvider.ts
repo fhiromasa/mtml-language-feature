@@ -1,6 +1,7 @@
 import { mtTags, mtModifiers } from "./mtHoverItems";
 import { netTags, netModifiers } from "./netHoverItems";
 import { pcTags, pcModifiers } from "./pcHoverItems";
+import { pcxTags, pcxModifiers } from "./pcxHoverItems";
 import { EnumCmsName, TItem } from "./utils";
 import {
 	HoverProvider,
@@ -43,6 +44,9 @@ export default class MTMLHoverProvider implements HoverProvider {
 				break;
 			case EnumCmsName.pc:
 				entry = pcTags[NAME] || pcModifiers[NAME];
+				break;
+			case EnumCmsName.pcx:
+				entry = pcxTags[NAME] || pcxModifiers[NAME];
 				break;
 			default:
 				entry = mtTags[NAME] || mtModifiers[NAME];
