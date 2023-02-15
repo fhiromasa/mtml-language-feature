@@ -1057,12 +1057,6 @@ export const pcTags: TItems = {
 		description: "",
 		url: "https://www.powercms.jp/products/document/template-tags/banneruniqclicks.html",
 	},
-	banneruniqclicks: {
-		codeBlock: "<mt:BannerUniqClicks>",
-		type: "FUNCTION",
-		description: "",
-		url: "https://www.powercms.jp/products/document/template-tags/banneruniqclicks.html",
-	},
 	banneruniqdisplays: {
 		codeBlock: "<mt:BannerUniqDisplays>",
 		type: "FUNCTION",
@@ -1632,12 +1626,6 @@ export const pcTags: TItems = {
 		type: "FUNCTION",
 		description: "",
 		url: "https://www.powercms.jp/products/document/template-tags/campaigntitle.html",
-	},
-	campaignuniqclicks: {
-		codeBlock: "<mt:CampaignUniqClicks>",
-		type: "FUNCTION",
-		description: "",
-		url: "https://www.powercms.jp/products/document/template-tags/campaignuniqclicks.html",
 	},
 	campaignuniqclicks: {
 		codeBlock: "<mt:CampaignUniqClicks>",
@@ -3882,12 +3870,6 @@ export const pcTags: TItems = {
 		description: "",
 		url: "https://www.powercms.jp/products/document/template-tags/ifaltsearchdate.html",
 	},
-	ifaltsearchdate: {
-		codeBlock: "<mt:IfAltSearchDate></mt:IfAltSearchDate>",
-		type: "BLOCK",
-		description: "",
-		url: "https://www.powercms.jp/products/document/template-tags/ifaltsearchdate.html",
-	},
 	ifaltsearchfrom: {
 		codeBlock: "<mt:IfAltSearchFrom></mt:IfAltSearchFrom>",
 		type: "BLOCK",
@@ -5239,12 +5221,6 @@ export const pcTags: TItems = {
 		description: "",
 		url: "https://www.powercms.jp/products/document/template-tags/pagerlink.html",
 	},
-	pagerlink: {
-		codeBlock: "<mt:PagerLink>",
-		type: "FUNCTION",
-		description: "",
-		url: "https://www.powercms.jp/products/document/template-tags/pagerlink.html",
-	},
 	pagernextlink: {
 		codeBlock: "<mt:PagerNextLink>",
 		type: "FUNCTION",
@@ -5820,12 +5796,6 @@ export const pcTags: TItems = {
 		type: "BLOCK",
 		description: "",
 		url: "https://www.powercms.jp/products/document/template-tags/subfolders.html",
-	},
-	supportdirectoryurl: {
-		codeBlock: "<mt:SupportDirectoryURL>",
-		type: "FUNCTION",
-		description: "",
-		url: "https://www.powercms.jp/products/document/template-tags/supportdirectoryurl.html",
 	},
 	searchcustomobjectfield: {
 		codeBlock: "<mt:SearchCustomObjectField></mt:SearchCustomObjectField>",
