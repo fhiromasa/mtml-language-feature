@@ -2,7 +2,7 @@
 	"name": "mtml-language-feature",
 	"displayName": "mtml-language-feature",
 	"description": "",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"engines": {
 		"vscode": "^1.67.0"
 	},
