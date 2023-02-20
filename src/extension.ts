@@ -7,6 +7,7 @@ import {
 	languages,
 } from "vscode";
 import MTMLHoverProvider from "./hoverProvider";
+import NewHoverProvider from "./newHoverProvider";
 
 const SEL: DocumentSelector = { scheme: "file", language: "mtml" };
 
@@ -18,6 +19,9 @@ export function activate(context: ExtensionContext): void {
 		console.log("settings of mtml.hover.enable is true");
 		context.subscriptions.push(
 			languages.registerHoverProvider(SEL, new MTMLHoverProvider())
+		);
+		context.subscriptions.push(
+			languages.registerHoverProvider(SEL, new NewHoverProvider())
 		);
 	}
 }
