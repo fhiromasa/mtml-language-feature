@@ -1,7 +1,7 @@
-import { mtTags, mtModifiers } from "./mtHoverItems";
-import { netTags, netModifiers } from "./netHoverItems";
-import { pcTags, pcModifiers } from "./pcHoverItems";
-import { pcxTags, pcxModifiers } from "./pcxHoverItems";
+import { mtTags, mtModifiers } from "./data/mtHoverItems";
+import { netTags, netModifiers } from "./data/netHoverItems";
+import { pcTags, pcModifiers } from "./data/pcHoverItems";
+import { pcxTags, pcxModifiers } from "./data/pcxHoverItems";
 import { EnumCmsName, TItem } from "./utils";
 import {
 	HoverProvider,
@@ -19,18 +19,18 @@ export default class MTMLHoverProvider implements HoverProvider {
 		position: Position,
 		token: CancellationToken
 	): Hover | undefined {
-		console.log("start provideHover()");
+		// console.log("start provideHover()");
 
 		// 設定を使うのならここで読んで設定処理
 		const CMS_NAME = workspace
 			.getConfiguration("mtml")
 			.get<string>("cms.name", EnumCmsName.mt);
-		console.log(`now using ${CMS_NAME}`);
+		// console.log(`now using ${CMS_NAME}`);
 
 		// ポインターの居場所に文字列があるかどうか確認する。なければリターン
 		const WORD_RANGE = document.getWordRangeAtPosition(position, /\w+(:\w+)?/);
 		if (!WORD_RANGE) {
-			console.log("there are no words");
+			// console.log("there are no words");
 			return undefined;
 		}
 
@@ -54,7 +54,7 @@ export default class MTMLHoverProvider implements HoverProvider {
 		}
 
 		if (!entry) {
-			console.log(`${RAW_NAME} is not found.`);
+			// console.log(`${RAW_NAME} is not found.`);
 			return undefined;
 		}
 
