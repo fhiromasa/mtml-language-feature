@@ -1,3 +1,7 @@
+import movabletypeItems from "./data/movabletype.json";
+
+export const mtItems: TNewItems = movabletypeItems;
+
 export type TItem = {
 	codeBlock: string;
 	description?: string;
@@ -17,37 +21,23 @@ export enum EnumCmsName {
 	pcx = "PowerCMS X",
 }
 
-type Tag = {
+export interface TNewItems {
+	[string: string]: TNewItem;
+}
+export interface TNewItem {
 	name: string;
 	url: string;
 	type: string;
 	description: string;
-	modifiers: Modifiers;
-};
-type Modifiers = {
-	[name: string]: Modifier;
-};
-type Modifier = {
+	modifiers: TModifiers;
+}
+interface TModifiers {
+	[string: string]: TModifier;
+}
+export interface TModifier {
 	name: string;
+	type: string;
 	value: string;
 	description: string;
-};
-
-let tafitem: Tag = {
-	name: "name",
-	url: "https://example.com",
-	type: "function",
-	description: "description",
-	modifiers: {
-		days: {
-			name: "name",
-			value: "value",
-			description: "description",
-		},
-		sort: {
-			name: "sort",
-			value: "v",
-			description: "",
-		},
-	},
-};
+	url: string;
+}
