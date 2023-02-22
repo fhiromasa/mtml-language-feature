@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { TItems } from "../utils";
-export const pcTags: TItems = {
+import { TOldItems } from "../utils";
+export const pcTags: TOldItems = {
 	actionstreams: {
 		codeBlock: "<mt:ActionStreams></mt:ActionStreams>",
 		type: "BLOCK",
@@ -6513,7 +6513,7 @@ export const pcTags: TItems = {
 	},
 };
 
-export const pcModifiers: TItems = {
+export const pcModifiers: TOldItems = {
 	absolute: {
 		codeBlock: '<mt:Tag absolute="" >',
 		type: "global",

@@ -1,12 +1,6 @@
 // import mtItems from "./tags.json";
 // import modifiers from "./modifiers.json";
-import {
-	TModifier,
-	TNewItem,
-	TNewItems,
-	EnumCmsName,
-	getCmsItems,
-} from "./utils";
+import { TModifier, TItem, EnumCmsName, getCmsItems } from "./utils";
 import {
 	HoverProvider,
 	Hover,
@@ -61,7 +55,7 @@ export default class MTMLHoverProvider implements HoverProvider {
 		}
 		// console.log("1.5. tagItem is :", tagItem.name);
 
-		let modifierItem: TNewItem | TModifier | undefined;
+		let modifierItem: TItem | TModifier | undefined;
 		if (hoverText.match(/=$/)) {
 			const modifierItemId = hoverText.replace(/(:\w+)?=$/, "").toLowerCase();
 			// console.log("1.6. modifier item id is :" + modifierItemId);
@@ -74,8 +68,8 @@ export default class MTMLHoverProvider implements HoverProvider {
 	}
 
 	private makeMarkdownString(
-		tagItem: TNewItem,
-		modifierItem: TNewItem | TModifier | undefined
+		tagItem: TItem,
+		modifierItem: TItem | TModifier | undefined
 	): MarkdownString {
 		const markdownString = new MarkdownString();
 		const tagName = tagItem.name.replace(/^mt/i, "").replace(/:/, "");

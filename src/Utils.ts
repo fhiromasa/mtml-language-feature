@@ -1,11 +1,11 @@
 import movabletypeItems from "./data/movabletype.json";
 
-const mtItems: TNewItems = movabletypeItems;
-const netItems: TNewItems = movabletypeItems;
-const pcItems: TNewItems = movabletypeItems;
-const pcxItems: TNewItems = movabletypeItems;
+const mtItems: TItems = movabletypeItems;
+const netItems: TItems = movabletypeItems;
+const pcItems: TItems = movabletypeItems;
+const pcxItems: TItems = movabletypeItems;
 
-export const getCmsItems = (cmsName: string): TNewItems => {
+export const getCmsItems = (cmsName: string): TItems => {
 	switch (cmsName) {
 		case EnumCmsName.net:
 			return netItems;
@@ -18,7 +18,7 @@ export const getCmsItems = (cmsName: string): TNewItems => {
 	}
 };
 
-export type TItem = {
+export type TOldItem = {
 	codeBlock: string;
 	description?: string;
 	type?: string;
@@ -26,8 +26,8 @@ export type TItem = {
 	deprecated?: Boolean;
 	version?: string;
 };
-export type TItems = {
-	[name: string]: TItem;
+export type TOldItems = {
+	[name: string]: TOldItem;
 };
 
 export enum EnumCmsName {
@@ -37,23 +37,23 @@ export enum EnumCmsName {
 	pcx = "PowerCMS X",
 }
 
-export interface TNewItems {
-	[string: string]: TNewItem;
-}
-export interface TNewItem {
+type TItems = {
+	[string: string]: TItem;
+};
+export type TItem = {
 	name: string;
 	url: string;
 	type: string;
 	description: string;
 	modifiers: TModifiers;
-}
-interface TModifiers {
+};
+type TModifiers = {
 	[string: string]: TModifier;
-}
-export interface TModifier {
+};
+export type TModifier = {
 	name: string;
 	type: string;
 	value: string;
 	description: string;
 	url: string;
-}
+};

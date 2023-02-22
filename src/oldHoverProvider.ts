@@ -2,7 +2,7 @@ import { mtTags, mtModifiers } from "./data/mtHoverItems";
 import { netTags, netModifiers } from "./data/netHoverItems";
 import { pcTags, pcModifiers } from "./data/pcHoverItems";
 import { pcxTags, pcxModifiers } from "./data/pcxHoverItems";
-import { EnumCmsName, TItem } from "./utils";
+import { EnumCmsName, TOldItem } from "./utils";
 import {
 	HoverProvider,
 	Hover,
@@ -13,7 +13,7 @@ import {
 	MarkdownString,
 } from "vscode";
 
-export default class MTMLHoverProvider implements HoverProvider {
+export default class OldMTMLHoverProvider implements HoverProvider {
 	public provideHover(
 		document: TextDocument,
 		position: Position,
@@ -67,7 +67,7 @@ export default class MTMLHoverProvider implements HoverProvider {
 	 * @param cmsName - Must be defined in EnumCmsName
 	 * @returns
 	 */
-	protected makeHoverMessage(entry: TItem, cmsName: string): MarkdownString {
+	protected makeHoverMessage(entry: TOldItem, cmsName: string): MarkdownString {
 		let mdMessage = new MarkdownString();
 		mdMessage.appendCodeblock(entry.codeBlock);
 

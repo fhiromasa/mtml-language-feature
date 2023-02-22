@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { TItems } from "../utils";
+import { TOldItems } from "../utils";
 
-export const netTags: TItems = {
+export const netTags: TOldItems = {
 	authenticationdeletesessionurl: {
 		codeBlock:
 			"<mt:AuthenticationDeleteSessionURL></mt:AuthenticationDeleteSessionURL>",
@@ -1608,7 +1608,7 @@ export const netTags: TItems = {
 	},
 };
 
-export const netModifiers: TItems = {
+export const netModifiers: TOldItems = {
 	count_characters: {
 		codeBlock: '<mt:Tag count_characters="" >',
 		type: "modifier",

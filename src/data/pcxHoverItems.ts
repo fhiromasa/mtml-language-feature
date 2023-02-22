@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { TItems } from "../utils";
+import { TOldItems } from "../utils";
 
-export const pcxTags: TItems = {
+export const pcxTags: TOldItems = {
 	activitymonths: {
 		codeBlock: "<mt:activitymonths></mt:activitymonths>",
 		type: "BLOCK",
@@ -5144,7 +5144,7 @@ export const pcxTags: TItems = {
 	},
 };
 
-export const pcxModifiers: TItems = {
+export const pcxModifiers: TOldItems = {
 	_archive_type: {
 		codeBlock: '<mt:Tag _archive_type="" >',
 		type: "modifier",

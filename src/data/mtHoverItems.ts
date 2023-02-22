@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { TItems } from "../utils";
+import { TOldItems } from "../utils";
 
-export const mtTags: TItems = {
+export const mtTags: TOldItems = {
 	authorhascontent: {
 		codeBlock: "<mt:AuthorHasContent></mt:AuthorHasContent>",
 		description: "",
@@ -4579,7 +4579,7 @@ export const mtTags: TItems = {
 	},
 };
 
-export const mtModifiers: TItems = {
+export const mtModifiers: TOldItems = {
 	capitalize: {
 		codeBlock: '<mt:Tag capitalize="" >',
 		type: "global",
