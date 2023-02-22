@@ -1,5 +1,3 @@
-// import mtItems from "./tags.json";
-// import modifiers from "./modifiers.json";
 import { TModifier, TItem, EnumCmsName, getCmsItems } from "./utils";
 import {
 	HoverProvider,
