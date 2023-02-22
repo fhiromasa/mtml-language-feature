@@ -1,6 +1,22 @@
 import movabletypeItems from "./data/movabletype.json";
 
-export const mtItems: TNewItems = movabletypeItems;
+const mtItems: TNewItems = movabletypeItems;
+const netItems: TNewItems = movabletypeItems;
+const pcItems: TNewItems = movabletypeItems;
+const pcxItems: TNewItems = movabletypeItems;
+
+export const getCmsItems = (cmsName: string): TNewItems => {
+	switch (cmsName) {
+		case EnumCmsName.net:
+			return netItems;
+		case EnumCmsName.pc:
+			return pcItems;
+		case EnumCmsName.pcx:
+			return pcxItems;
+		default:
+			return mtItems;
+	}
+};
 
 export type TItem = {
 	codeBlock: string;

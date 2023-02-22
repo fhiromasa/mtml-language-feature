@@ -1,6 +1,12 @@
 // import mtItems from "./tags.json";
 // import modifiers from "./modifiers.json";
-import { TModifier, TNewItem, mtItems } from "./utils";
+import {
+	TModifier,
+	TNewItem,
+	TNewItems,
+	EnumCmsName,
+	getCmsItems,
+} from "./utils";
 import {
 	HoverProvider,
 	Hover,
@@ -8,6 +14,7 @@ import {
 	CancellationToken,
 	Position,
 	MarkdownString,
+	workspace,
 } from "vscode";
 
 export default class NewHoverProvider implements HoverProvider {
@@ -16,6 +23,7 @@ export default class NewHoverProvider implements HoverProvider {
 		position: Position,
 		token: CancellationToken
 	): Hover | undefined {
+		// 取得したい文字列の正規表現
 		const tagRegex = /<\$?mt:?[0-9a-zA-Z:_\s=\",]+/i;
 		const hoverRegex = /[0-9a-zA-Z:_]+=?/i;
 
@@ -25,18 +33,23 @@ export default class NewHoverProvider implements HoverProvider {
 			//どちらかがundefinedだった時点で終了
 			return undefined;
 		}
+		// 設定を使うのならここで読んで設定処理
+		const CMS_NAME = workspace
+			.getConfiguration("mtml")
+			.get<string>("cms.name", EnumCmsName.mt);
+		const CMS_ITEMS = getCmsItems(CMS_NAME);
 
-		// mtタグの中で何かしらの要素にホバーしている
+		// mtタグの中で何かしらの要素にホバーしている状況
 		const hoverText = document.getText(hoverRange);
 		const tagText = document.getText(tagRange);
 		const tagStructure = tagText.split(/\s+/);
-		console.log("1.1. hover text is :" + hoverText);
-		console.log("1.2. tag text is   :" + tagText);
-		console.log("1.3. tag structure is :" + tagStructure.join(", "));
+		// console.log("1.1. hover text is :" + hoverText);
+		// console.log("1.2. tag text is   :" + tagText);
+		// console.log("1.3. tag structure is :" + tagStructure.join(", "));
 
 		const tagItemId = tagStructure[0].replace(/[<:]/g, "").toLowerCase();
-		console.log("1.4. tag item id is :" + tagItemId);
-		let tagItem: TNewItem = mtItems[tagItemId];
+		// console.log("1.4. tag item id is :" + tagItemId);
+		let tagItem = CMS_ITEMS[tagItemId];
 		if (!tagItem) {
 			tagItem = {
 				name: tagStructure[0].replace(/[<:]/g, ""),
@@ -46,15 +59,15 @@ export default class NewHoverProvider implements HoverProvider {
 				modifiers: {},
 			};
 		}
-		console.log("1.5. tagItem is :", tagItem.name);
+		// console.log("1.5. tagItem is :", tagItem.name);
 
 		let modifierItem: TNewItem | TModifier | undefined;
 		if (hoverText.match(/=$/)) {
 			const modifierItemId = hoverText.replace(/(:\w+)?=$/, "").toLowerCase();
-			console.log("1.6. modifier item id is :" + modifierItemId);
+			// console.log("1.6. modifier item id is :" + modifierItemId);
 			modifierItem =
-				mtItems[modifierItemId] || tagItem.modifiers[modifierItemId];
-			console.log("1.7. modifierItem is :", modifierItem.name);
+				CMS_ITEMS[modifierItemId] || tagItem.modifiers[modifierItemId];
+			// console.log("1.7. modifierItem is :", modifierItem.name);
 		}
 
 		return new Hover(this.makeMarkdownString(tagItem, modifierItem));
@@ -79,9 +92,12 @@ export default class NewHoverProvider implements HoverProvider {
 		markdownString.appendCodeblock(codeBlock);
 		if (modifierItem?.type === "global") {
 			markdownString.appendMarkdown(
-				`\n\nglobal modifier : ${modifierItem.name}` +
-					`\n\n${modifierItem.description}` +
-					`\n\ntemplate tag : ${tagItem.name}`
+				[
+					`\n\nglobal modifier : ${modifierItem.name}`,
+					`\n\n${modifierItem.description}`,
+					`\n\n[${modifierItem.name} Reference](${modifierItem.url})`,
+					`\n\ntemplate tag : ${tagItem.name}`,
+				].join("")
 			);
 		}
 		markdownString.appendMarkdown(`\n\n${tagItem.description}`);
@@ -96,7 +112,7 @@ export default class NewHoverProvider implements HoverProvider {
 		}
 
 		markdownString.appendMarkdown(`\n\n[Reference](${tagItem.url})`);
-		console.log("makeMarkdownString :" + markdownString.value);
+		// console.log("makeMarkdownString :" + markdownString.value);
 
 		return markdownString;
 	}
