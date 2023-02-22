@@ -1,16 +1,20 @@
-import { mtTags, mtModifiers } from "./data/mtHoverItems";
-import { netTags, netModifiers } from "./data/netHoverItems";
-import { pcTags, pcModifiers } from "./data/pcHoverItems";
-import { pcxTags, pcxModifiers } from "./data/pcxHoverItems";
-import { EnumCmsName, TItem } from "./utils";
+// import mtItems from "./tags.json";
+// import modifiers from "./modifiers.json";
+import {
+	TModifier,
+	TNewItem,
+	TNewItems,
+	EnumCmsName,
+	getCmsItems,
+} from "./utils";
 import {
 	HoverProvider,
 	Hover,
 	TextDocument,
 	CancellationToken,
 	Position,
-	workspace,
 	MarkdownString,
+	workspace,
 } from "vscode";
 
 export default class MTMLHoverProvider implements HoverProvider {
@@ -19,77 +23,97 @@ export default class MTMLHoverProvider implements HoverProvider {
 		position: Position,
 		token: CancellationToken
 	): Hover | undefined {
-		// console.log("start provideHover()");
+		// 取得したい文字列の正規表現
+		const tagRegex = /<\$?mt:?[0-9a-zA-Z:_\s=\",]+/i;
+		const hoverRegex = /[0-9a-zA-Z:_]+=?/i;
 
+		const hoverRange = document.getWordRangeAtPosition(position, hoverRegex);
+		const tagRange = document.getWordRangeAtPosition(position, tagRegex);
+		if (!hoverRange || !tagRange) {
+			//どちらかがundefinedだった時点で終了
+			return undefined;
+		}
 		// 設定を使うのならここで読んで設定処理
 		const CMS_NAME = workspace
 			.getConfiguration("mtml")
 			.get<string>("cms.name", EnumCmsName.mt);
-		// console.log(`now using ${CMS_NAME}`);
+		const CMS_ITEMS = getCmsItems(CMS_NAME);
 
-		// ポインターの居場所に文字列があるかどうか確認する。なければリターン
-		const WORD_RANGE = document.getWordRangeAtPosition(position, /\w+(:\w+)?/);
-		if (!WORD_RANGE) {
-			// console.log("there are no words");
-			return undefined;
+		// mtタグの中で何かしらの要素にホバーしている状況
+		const hoverText = document.getText(hoverRange);
+		const tagText = document.getText(tagRange);
+		const tagStructure = tagText.split(/\s+/);
+		// console.log("1.1. hover text is :" + hoverText);
+		// console.log("1.2. tag text is   :" + tagText);
+		// console.log("1.3. tag structure is :" + tagStructure.join(", "));
+
+		const tagItemId = tagStructure[0].replace(/[<:]/g, "").toLowerCase();
+		// console.log("1.4. tag item id is :" + tagItemId);
+		let tagItem = CMS_ITEMS[tagItemId];
+		if (!tagItem) {
+			tagItem = {
+				name: tagStructure[0].replace(/[<:]/g, ""),
+				description: "This tag is not included in the reference.",
+				type: "",
+				url: "",
+				modifiers: {},
+			};
+		}
+		// console.log("1.5. tagItem is :", tagItem.name);
+
+		let modifierItem: TNewItem | TModifier | undefined;
+		if (hoverText.match(/=$/)) {
+			const modifierItemId = hoverText.replace(/(:\w+)?=$/, "").toLowerCase();
+			// console.log("1.6. modifier item id is :" + modifierItemId);
+			modifierItem =
+				CMS_ITEMS[modifierItemId] || tagItem.modifiers[modifierItemId];
+			// console.log("1.7. modifierItem is :", modifierItem.name);
 		}
 
-		const RAW_NAME = document.getText(WORD_RANGE);
-		const LOWER_NAME = RAW_NAME.toLowerCase();
-		const NAME = LOWER_NAME.replace(/^(mt)/, "").replace(/:/, "");
-		let entry;
-		switch (CMS_NAME) {
-			case EnumCmsName.net:
-				entry = netTags[NAME] || netModifiers[NAME];
-				break;
-			case EnumCmsName.pc:
-				entry = pcTags[NAME] || pcModifiers[NAME];
-				break;
-			case EnumCmsName.pcx:
-				entry = pcxTags[NAME] || pcxModifiers[NAME];
-				break;
-			default:
-				entry = mtTags[NAME] || mtModifiers[NAME];
-				break;
-		}
-
-		if (!entry) {
-			// console.log(`${RAW_NAME} is not found.`);
-			return undefined;
-		}
-
-		return new Hover(this.makeHoverMessage(entry, CMS_NAME));
+		return new Hover(this.makeMarkdownString(tagItem, modifierItem));
 	}
 
-	/**
-	 * Return vscode.MarkdownString from TItem
-	 * @param entry - From *HoverItems.ts
-	 * @param cmsName - Must be defined in EnumCmsName
-	 * @returns
-	 */
-	protected makeHoverMessage(entry: TItem, cmsName: string): MarkdownString {
-		let mdMessage = new MarkdownString();
-		mdMessage.appendCodeblock(entry.codeBlock);
+	private makeMarkdownString(
+		tagItem: TNewItem,
+		modifierItem: TNewItem | TModifier | undefined
+	): MarkdownString {
+		const markdownString = new MarkdownString();
+		const tagName = tagItem.name.replace(/^mt/i, "").replace(/:/, "");
+		const tagModifiers = Object.values(tagItem.modifiers);
 
-		if (entry.deprecated) {
-			mdMessage.isTrusted = true;
-			mdMessage.appendMarkdown(
-				`# <span style="color:#8f2107;">This item is deprecated!!</span>\n\n`
+		let codeBlock = "<mt:" + tagName + ">";
+		if (modifierItem) {
+			codeBlock = codeBlock.replace(/>$/, ` ${modifierItem.name}="">`);
+		}
+		if (tagItem.type === "block") {
+			codeBlock += " ~ </mt:" + tagName + ">";
+		}
+
+		markdownString.appendCodeblock(codeBlock);
+		if (modifierItem?.type === "global") {
+			markdownString.appendMarkdown(
+				[
+					`\n\nglobal modifier : ${modifierItem.name}`,
+					`\n\n${modifierItem.description}`,
+					`\n\n[${modifierItem.name} Reference](${modifierItem.url})`,
+					`\n\ntemplate tag : ${tagItem.name}`,
+				].join("")
 			);
 		}
+		markdownString.appendMarkdown(`\n\n${tagItem.description}`);
 
-		if (entry.description && entry.description !== "") {
-			mdMessage.appendMarkdown(`${entry.description}\n\n`);
+		if (tagModifiers.length > 0) {
+			markdownString.appendMarkdown(`\n\nmodifiers`);
+			tagModifiers.map((modifier) => {
+				markdownString.appendMarkdown(
+					`\n- ${modifier.name}=${modifier.value}\n\t- ${modifier.description}`
+				);
+			});
 		}
-		if (entry.type && entry.type !== "") {
-			mdMessage.appendMarkdown(`type : ${entry.type}\n\n`);
-		}
-		if (entry.version && entry.version !== "") {
-			mdMessage.appendMarkdown(`version : ${entry.version}\n\n`);
-		}
-		if (entry.url && entry.url !== "") {
-			mdMessage.appendMarkdown(`[${cmsName} Reference](${entry.url})`);
-		}
-		return mdMessage;
+
+		markdownString.appendMarkdown(`\n\n[Reference](${tagItem.url})`);
+		// console.log("makeMarkdownString :" + markdownString.value);
+
+		return markdownString;
 	}
 }
