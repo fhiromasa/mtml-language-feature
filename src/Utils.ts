@@ -18,18 +18,6 @@ export const getCmsItems = (cmsName: string): TItems => {
 	}
 };
 
-export type TOldItem = {
-	codeBlock: string;
-	description?: string;
-	type?: string;
-	url?: string;
-	deprecated?: Boolean;
-	version?: string;
-};
-export type TOldItems = {
-	[name: string]: TOldItem;
-};
-
 export enum EnumCmsName {
 	mt = "Movable Type",
 	net = "Movable Type.net",
