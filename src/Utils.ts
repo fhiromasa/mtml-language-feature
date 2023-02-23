@@ -1,20 +1,20 @@
 import movabletypeItems from "./data/movabletype.json";
 
-const mtItems: TItems = movabletypeItems;
-const netItems: TItems = movabletypeItems;
-const pcItems: TItems = movabletypeItems;
-const pcxItems: TItems = movabletypeItems;
+const MOVABLETYPE_ITEMS: TItems = movabletypeItems;
+const MOVABLETYPE_NET_ITEMS: TItems = movabletypeItems;
+const POWERCMS_ITEMS: TItems = movabletypeItems;
+const POWERCMS_X_ITEMS: TItems = movabletypeItems;
 
 export const getCmsItems = (cmsName: string): TItems => {
 	switch (cmsName) {
 		case EnumCmsName.net:
-			return netItems;
+			return MOVABLETYPE_NET_ITEMS;
 		case EnumCmsName.pc:
-			return pcItems;
+			return POWERCMS_ITEMS;
 		case EnumCmsName.pcx:
-			return pcxItems;
+			return POWERCMS_X_ITEMS;
 		default:
-			return mtItems;
+			return MOVABLETYPE_ITEMS;
 	}
 };
 
