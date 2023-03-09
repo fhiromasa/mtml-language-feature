@@ -1,18 +1,49 @@
-export type TItem = {
-	codeBlock: string;
-	description?: string;
-	type?: string;
-	url?: string;
-	deprecated?: Boolean;
-	version?: string;
-};
-export type TItems = {
-	[name: string]: TItem;
+import movabletypeItems from "./data/movabletype.json";
+import movabletype_netItems from "./data/movabletype_net.json";
+import powercmsItems from "./data/powercms.json";
+import powercms_xItems from "./data/powercms_x.json";
+
+const MOVABLETYPE_ITEMS: TItems = movabletypeItems;
+const MOVABLETYPE_NET_ITEMS: TItems = movabletype_netItems;
+const POWERCMS_ITEMS: TItems = powercmsItems;
+const POWERCMS_X_ITEMS: TItems = powercms_xItems;
+
+export const getCmsItems = (cmsName: TCms): TItems => {
+	switch (cmsName) {
+		case "Movable Type.net":
+			return MOVABLETYPE_NET_ITEMS;
+		case "PowerCMS":
+			return POWERCMS_ITEMS;
+		case "PowerCMS X":
+			return POWERCMS_X_ITEMS;
+		default:
+			return MOVABLETYPE_ITEMS;
+	}
 };
 
-export enum EnumCmsName {
-	mt = "Movable Type",
-	net = "Movable Type.net",
-	pc = "PowerCMS",
-	pcx = "PowerCMS X",
-}
+export type TCms =
+	| "Movable Type"
+	| "Movable Type.net"
+	| "PowerCMS"
+	| "PowerCMS X";
+
+type TItems = {
+	[string: string]: TItem;
+};
+export type TItem = {
+	name: string;
+	url: string;
+	type: string;
+	description: string;
+	modifiers: TModifiers;
+};
+type TModifiers = {
+	[string: string]: TModifier;
+};
+export type TModifier = {
+	name: string;
+	type: string;
+	value: string;
+	description: string;
+	url: string;
+};
