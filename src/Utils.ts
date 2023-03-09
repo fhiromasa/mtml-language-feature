@@ -8,25 +8,24 @@ const MOVABLETYPE_NET_ITEMS: TItems = movabletype_netItems;
 const POWERCMS_ITEMS: TItems = powercmsItems;
 const POWERCMS_X_ITEMS: TItems = powercms_xItems;
 
-export const getCmsItems = (cmsName: string): TItems => {
+export const getCmsItems = (cmsName: TCms): TItems => {
 	switch (cmsName) {
-		case EnumCmsName.net:
+		case "Movable Type.net":
 			return MOVABLETYPE_NET_ITEMS;
-		case EnumCmsName.pc:
+		case "PowerCMS":
 			return POWERCMS_ITEMS;
-		case EnumCmsName.pcx:
+		case "PowerCMS X":
 			return POWERCMS_X_ITEMS;
 		default:
 			return MOVABLETYPE_ITEMS;
 	}
 };
 
-export enum EnumCmsName {
-	mt = "Movable Type",
-	net = "Movable Type.net",
-	pc = "PowerCMS",
-	pcx = "PowerCMS X",
-}
+export type TCms =
+	| "Movable Type"
+	| "Movable Type.net"
+	| "PowerCMS"
+	| "PowerCMS X";
 
 type TItems = {
 	[string: string]: TItem;

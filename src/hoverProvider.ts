@@ -1,4 +1,4 @@
-import { TModifier, TItem, getCmsItems, EnumCmsName } from "./utils";
+import { TModifier, TItem, getCmsItems, TCms } from "./utils";
 import {
 	HoverProvider,
 	Hover,
@@ -28,7 +28,7 @@ export default class MTMLHoverProvider implements HoverProvider {
 		// 設定を使うのならここで読んで設定処理
 		const CMS_NAME = workspace
 			.getConfiguration("mtml")
-			.get<EnumCmsName>("cms.name", EnumCmsName.mt);
+			.get<TCms>("cms.name", "Movable Type");
 		const CMS_ITEMS = getCmsItems(CMS_NAME);
 
 		// mtタグの中で何かしらの要素にホバーしている状況
@@ -39,12 +39,12 @@ export default class MTMLHoverProvider implements HoverProvider {
 		// console.log("1.2. tag text is   :" + tagText);
 		// console.log("1.3. tag structure is :" + tagStructure.join(", "));
 
-		const tagItemId = tagStructure[0].replace(/[<:]/g, "").toLowerCase();
+		const tagItemId = tagStructure[0].replace(/[<:$]/g, "");
 		// console.log("1.4. tag item id is :" + tagItemId);
-		let tagItem = CMS_ITEMS[tagItemId];
+		let tagItem = CMS_ITEMS[tagItemId.toLowerCase()];
 		if (!tagItem) {
 			tagItem = {
-				name: tagStructure[0].replace(/[<:]/g, ""),
+				name: tagItemId,
 				description: "This tag is not included in the reference.",
 				type: "",
 				url: "",
@@ -68,7 +68,7 @@ export default class MTMLHoverProvider implements HoverProvider {
 	private makeMarkdownString(
 		tagItem: TItem,
 		modifierItem: TItem | TModifier | undefined,
-		cmsName: EnumCmsName
+		cmsName: TCms
 	): MarkdownString {
 		const markdownString = new MarkdownString();
 		const tagName = tagItem.name.replace(/^mt/i, "").replace(/:/, "");
