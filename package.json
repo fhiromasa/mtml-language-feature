@@ -42,6 +42,16 @@
 					],
 					"default": "Movable Type",
 					"description": "What is your CMS' name?"
+				},
+				"mtml.functiontag.rule": {
+					"type": "string",
+					"enum": [
+						"none",
+						"slash",
+						"dollar"
+					],
+					"default": "slash",
+					"description": "ファンクションタグのルールを決めます。none:`<mt:functointag>`,slash:`<mt:functointag />`,dollar:`<$mt:functointag$>`"
 				}
 			}
 		}
