@@ -28,7 +28,7 @@ export default class MTMLHoverProvider implements HoverProvider {
 		// 設定を使うのならここで読んで設定処理
 		const CMS_NAME = workspace
 			.getConfiguration("mtml")
-			.get<string>("cms.name", EnumCmsName.mt);
+			.get<EnumCmsName>("cms.name", EnumCmsName.mt);
 		const CMS_ITEMS = getCmsItems(CMS_NAME);
 
 		// mtタグの中で何かしらの要素にホバーしている状況
@@ -62,12 +62,13 @@ export default class MTMLHoverProvider implements HoverProvider {
 			// console.log("1.7. modifierItem is :", modifierItem.name);
 		}
 
-		return new Hover(this.makeMarkdownString(tagItem, modifierItem));
+		return new Hover(this.makeMarkdownString(tagItem, modifierItem, CMS_NAME));
 	}
 
 	private makeMarkdownString(
 		tagItem: TItem,
-		modifierItem: TItem | TModifier | undefined
+		modifierItem: TItem | TModifier | undefined,
+		cmsName: EnumCmsName
 	): MarkdownString {
 		const markdownString = new MarkdownString();
 		const tagName = tagItem.name.replace(/^mt/i, "").replace(/:/, "");
@@ -103,7 +104,7 @@ export default class MTMLHoverProvider implements HoverProvider {
 			});
 		}
 
-		markdownString.appendMarkdown(`\n\n[Reference](${tagItem.url})`);
+		markdownString.appendMarkdown(`\n\n[${cmsName} Reference](${tagItem.url})`);
 		// console.log("makeMarkdownString :" + markdownString.value);
 
 		return markdownString;

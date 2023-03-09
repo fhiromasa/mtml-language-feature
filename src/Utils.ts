@@ -1,9 +1,12 @@
 import movabletypeItems from "./data/movabletype.json";
+import movabletype_netItems from "./data/movabletype_net.json";
+import powercmsItems from "./data/powercms.json";
+import powercms_xItems from "./data/powercms_x.json";
 
 const MOVABLETYPE_ITEMS: TItems = movabletypeItems;
-const MOVABLETYPE_NET_ITEMS: TItems = movabletypeItems;
-const POWERCMS_ITEMS: TItems = movabletypeItems;
-const POWERCMS_X_ITEMS: TItems = movabletypeItems;
+const MOVABLETYPE_NET_ITEMS: TItems = movabletype_netItems;
+const POWERCMS_ITEMS: TItems = powercmsItems;
+const POWERCMS_X_ITEMS: TItems = powercms_xItems;
 
 export const getCmsItems = (cmsName: string): TItems => {
 	switch (cmsName) {
